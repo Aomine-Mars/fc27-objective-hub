@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#0b1113" />
+<meta name="description" content="Your unofficial, offline-friendly FC 27 Ultimate Team objective planner and progress tracker." />
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="icon" type="image/png" href="./icons/icon-192.png" />
+<title>FC27 Objective Hub | Ultimate Team Planner</title>
+<style>:root{color-scheme:dark;--bg:#0b1113;--panel:#151d20;--panel2:#192326;--line:#283638;--muted:#90a2a2;--text:#edf4ee;--sub:#b8c6c1;--accent:#c4fb65;--gold:#f2c46b;--red:#ff8a86;--blue:#7fcde5;--radius:16px;--shadow:0 12px 32px rgba(0,0,0,.15)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 84% -8%,#1b3928 0,transparent 36%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:3px}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.shell{display:flex;min-height:100vh}.sidebar{position:sticky;top:0;width:253px;height:100vh;flex:none;border-right:1px solid #253133;background:#101719;padding:26px 15px 20px;display:flex;flex-direction:column;z-index:9}.brand{display:flex;gap:11px;align-items:center;padding:4px 11px 47px}.brand-mark{height:41px;width:41px;display:grid;place-content:center;position:relative;font-size:22px;font-weight:1000;letter-spacing:-1.5px;color:#101a15;background:var(--accent);clip-path:polygon(12% 0,100% 0,100% 88%,88% 100%,0 100%,0 12%)}.brand-mark span{position:absolute;font-size:9px;right:5px;top:0}.brand-mark.small{width:31px;height:31px;font-size:16px}.brand-copy strong,.mobile-brand strong{display:block;font-size:17px;font-weight:900;line-height:1;letter-spacing:-.6px}.brand-copy strong span,.mobile-brand strong span{color:var(--accent)}.brand-copy small{font-size:9px;letter-spacing:1.45px;color:#92a3a1}.sidebar-section{font-size:10px;letter-spacing:1.5px;font-weight:800;color:#7f9693;padding:0 18px;margin-bottom:13px}.desktop-nav{display:grid;gap:6px}.nav-link{border:0;border-radius:10px;background:transparent;color:#a5b4b1;display:flex;align-items:center;width:100%;gap:14px;text-align:left;padding:12px 17px;font-weight:700;transition:background .2s,color .2s}.nav-link:hover{background:#1c2929;color:white}.nav-link.active{background:#263c2b;color:var(--accent)}.nav-symbol{font-size:18px;width:21px;text-align:center}.sidebar-bottom{margin-top:auto}.privacy-note{border:1px solid #283d33;border-radius:13px;padding:13px;margin:10px 0 13px;background:#14241d;color:#d1e7d3;font-size:12px;font-weight:700}.privacy-note small{font-weight:500;color:#95a99c}.live-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px #b5ff7e66;margin-right:5px}.unofficial{font-size:9px;letter-spacing:.5px;color:#6f8482;padding:18px 11px 0;line-height:1.65}.main-column{min-width:0;flex:1}.topbar{height:79px;border-bottom:1px solid #213133;background:#101819c7;backdrop-filter:blur(12px);padding:0 clamp(22px,5vw,64px);display:flex;align-items:center;justify-content:space-between;gap:18px;position:sticky;top:0;z-index:8}.topbar-label{color:#829a94;font-size:10px;letter-spacing:1.8px;font-weight:800}.topbar-label #breadcrumb{color:#d4e0d9}.topbar-divider{margin:0 14px;color:#3f5a52}.top-actions{display:flex;gap:14px;align-items:center}.device-pill{border-radius:30px;background:#1a2a22;color:#a5d7a0;padding:8px 12px;font-size:10px;letter-spacing:1px;font-weight:800;white-space:nowrap}.mobile-brand,.mobile-inline{display:none}#main{padding:clamp(20px,4vw,42px) clamp(18px,5vw,64px) 62px;max-width:1510px;margin:auto;min-height:calc(100vh - 143px)}.footer{font-size:11px;color:#667e78;text-align:center;padding:0 20px 27px}.footer span{margin-left:20px}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:900;color:var(--accent);text-transform:uppercase}.page-head{display:flex;justify-content:space-between;align-items:flex-end;gap:15px;margin-bottom:27px}.page-head h1{font-size:clamp(28px,3vw,41px);letter-spacing:-1.9px;line-height:1.11;margin:8px 0 8px;font-weight:900}.page-head p{margin:0;color:#a2b5ad}.header-buttons{display:flex;gap:9px;flex-wrap:wrap}.btn{padding:11px 16px;border-radius:10px;border:1px solid #344743;background:#20302d;color:#ebf5eb;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:9px;line-height:1.25}.btn:hover{filter:brightness(1.1)}.btn:disabled{opacity:.4;cursor:not-allowed}.btn-primary{background:var(--accent);color:#182214;border-color:var(--accent)}.btn-ghost{background:transparent;border-color:#394b47;color:#cfddd2}.btn-danger{background:#411f25;border-color:#723840;color:#ffacac}.btn-small{font-size:12px;padding:9px 13px}.btn-icon{width:32px;height:32px;border:1px solid #364842;background:#24332f;color:#e2f0e6;border-radius:9px;font-size:18px;display:grid;place-items:center}.btn-icon:disabled{opacity:.3;cursor:not-allowed}.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-bottom:23px}.card,.stat,.panel{background:linear-gradient(142deg,#192326,#151c1f);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.stat{padding:20px 22px;min-height:155px;position:relative;overflow:hidden}.stat:after{content:'';position:absolute;width:104px;height:104px;right:-44px;top:-44px;border-radius:100%;border:1px solid #647b6660;box-shadow:0 0 0 19px #3c573814}.stat .stat-top{display:flex;justify-content:space-between;align-items:center;color:#98aca4;font-size:11px;text-transform:uppercase;letter-spacing:1.2px;font-weight:800}.stat .stat-symbol{color:var(--accent);font-size:20px}.stat strong{font-size:36px;letter-spacing:-1.5px;display:block;line-height:1.35;margin-top:16px}.stat .stat-foot{font-size:11px;color:#88a095}.stat-gold .stat-symbol,.stat-gold strong{color:var(--gold)}.stat-blue .stat-symbol{color:var(--blue)}.stat-red .stat-symbol{color:var(--red)}.grid-main{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(290px,1fr);gap:20px;margin-bottom:24px}.panel{padding:22px;min-width:0}.section-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}.section-title h2{font-size:17px;letter-spacing:-.35px;margin:0}.section-title .subtext{color:#8fa6a0;font-size:12px}.link-btn{background:none;border:0;color:var(--accent);font-size:12px;font-weight:800;padding:5px}.hero-panel{border-radius:var(--radius);border:1px solid #476344;background:linear-gradient(120deg,#29452d,#1a2c27 58%,#193126);padding:22px 25px;display:flex;align-items:center;justify-content:space-between;gap:25px;margin-bottom:22px;position:relative;overflow:hidden}.hero-panel:after{content:'27';position:absolute;font-size:170px;font-weight:1000;color:#b2ff6713;right:10px;top:-54px;letter-spacing:-20px;pointer-events:none}.hero-panel>*{position:relative;z-index:1}.hero-panel h2{margin:5px 0;font-size:21px;letter-spacing:-.5px}.hero-panel p{margin:0 0 13px;color:#b3d6b6;font-size:12px}.hero-pill{display:inline-flex;border-radius:30px;background:#385b3b;padding:5px 9px;color:#d1ffbd;font-size:10px;letter-spacing:1px;font-weight:800}.stacked-actions{display:flex;gap:10px;flex-wrap:wrap}.progress-track{height:7px;background:#2e3c39;border-radius:20px;overflow:hidden}.progress-fill{height:100%;background:var(--accent);border-radius:20px;transition:width .15s}.progress-line{display:flex;justify-content:space-between;gap:12px;margin:10px 0 8px;font-size:12px}.progress-line strong{color:var(--accent)}.group-card{padding:18px;border:1px solid #2d403c;border-radius:13px;background:#172123;margin-bottom:11px}.group-card:last-child{margin-bottom:0}.group-top{display:flex;align-items:flex-start;justify-content:space-between;gap:13px}.group-top h3{font-size:16px;letter-spacing:-.3px;margin:6px 0 4px}.group-meta{font-size:11px;color:#8fa9a1}.group-meta span{margin-right:9px}.group-tag{font-size:10px;font-weight:800;letter-spacing:.5px;border-radius:5px;padding:4px 7px;background:#2c3835;color:#b6c9c1;display:inline-block}.tag-gold{background:#443720;color:#f8d08b}.tag-green{background:#2f4433;color:#aef597}.tag-blue{background:#213e46;color:#8fdaec}.tag-red{background:#492b2d;color:#ffaaa4}.tag-demo{background:#3b3247;color:#d8b9ff}.objective-toolbar{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:18px}.search-input,.control{background:#0f191b;color:var(--text);border:1px solid #354845;border-radius:10px;padding:11px 13px;min-height:42px;width:100%}.search-input{flex:1;min-width:190px}.objective-toolbar select{width:auto;min-width:150px}.objective-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.objective-card{padding:19px;min-width:0}.objective-card .obj-title{margin:10px 0 5px;font-size:18px;letter-spacing:-.5px;line-height:1.3}.obj-description{font-size:12px;color:#99aca6;margin:0}.obj-tagline{display:flex;flex-wrap:wrap;gap:5px;align-items:center}.objective-summary{display:flex;gap:12px;justify-content:space-between;color:#9eb1a8;font-size:11px;margin:18px 0 10px}.objective-summary strong{color:#e6f8da}.objective-card .card-actions{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:16px}.card-actions button{font-size:12px}.task-list{border-top:1px solid #31413c;margin-top:15px;padding-top:12px;display:grid;gap:10px}.task-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center}.task-title{font-size:12px;font-weight:750}.task-desc{font-size:10px;color:#93a9a2}.task-action{display:flex;align-items:center;gap:7px}.task-count{color:var(--accent);font-size:12px;font-weight:900;min-width:36px;text-align:center;font-variant-numeric:tabular-nums}.task-done .task-title{color:#809888;text-decoration:line-through}.mini-track{background:#2a3935;border-radius:9px;height:4px;overflow:hidden;margin-top:7px}.mini-track>span{height:100%;background:#acd868;display:block}.empty{border:1px dashed #486059;border-radius:14px;padding:35px 20px;text-align:center;color:#9cb0a6}.empty-icon{font-size:40px;margin-bottom:4px}.empty h3{color:#e2efe7;margin:9px 0 6px;font-size:17px}.empty p{max-width:400px;margin:0 auto 18px}.tiny-list{display:grid;gap:11px}.tiny-row{display:flex;gap:11px;align-items:center;justify-content:space-between;border-bottom:1px solid #2a3b38;padding-bottom:10px}.tiny-row:last-child{border:0;padding:0}.tiny-row strong{display:block;font-size:12px}.tiny-row small{display:block;color:#8da79c;font-size:11px}.reward-box{background:#2f3825;border:1px solid #5a5a34;border-radius:12px;padding:18px;margin-top:16px}.reward-box>strong{color:var(--gold)}.chip{font-size:10px;letter-spacing:.5px;border:1px solid #46614b;color:#b9dcad;border-radius:20px;padding:5px 9px;white-space:nowrap}.chip.urgent{color:#ffb2a0;border-color:#864a43;background:#432629}.muted{color:var(--muted)}.text-success{color:var(--accent)}.text-gold{color:var(--gold)}.text-danger{color:var(--red)}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.field{display:flex;flex-direction:column;gap:6px;min-width:0}.field label,.field>label{font-weight:800;font-size:11px;color:#afc3b6;letter-spacing:.2px}.field small{color:#8ba59b;font-size:11px}.field.full{grid-column:1/-1}.control[type=number]{appearance:textfield}.control::placeholder,textarea::placeholder{color:#607b72}textarea.control{min-height:80px;resize:vertical}.modal-layer{position:fixed;inset:0;background:#020909c9;backdrop-filter:blur(7px);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}.modal{background:#182325;border:1px solid #46604d;width:min(610px,100%);max-height:91vh;overflow:auto;border-radius:20px;box-shadow:0 30px 80px #0009}.modal.large{width:min(780px,100%)}.modal-head{position:sticky;top:0;z-index:2;background:#1a2727;padding:19px 22px;border-bottom:1px solid #354842;display:flex;justify-content:space-between;align-items:center;gap:10px}.modal-head h2{margin:0;font-size:18px}.modal-body{padding:21px}.modal-footer{padding:16px 22px;display:flex;justify-content:flex-end;gap:10px;border-top:1px solid #354842}.hint{background:#243429;color:#bbdbc2;padding:12px 14px;border-radius:10px;font-size:12px;margin-bottom:14px}.alert{background:#3e3023;color:#f2d1a2;padding:10px 12px;border:1px solid #755b37;border-radius:9px;font-size:12px}.match-check{display:flex;gap:12px;align-items:flex-start;padding:11px;border-bottom:1px solid #33443d}.match-check input{accent-color:var(--accent);width:17px;height:17px;margin-top:2px}.match-check span{font-size:12px}.match-check strong{display:block}.planner-pair{padding:16px;border:1px solid #395343;border-radius:13px;background:#1d3028;margin-bottom:12px}.planner-pair h3{margin:0 0 9px;font-size:15px}.planner-list{display:grid;grid-template-columns:1fr 1fr;gap:15px}.planner-tip{padding:14px;background:#25352e;border-left:3px solid var(--accent);border-radius:7px;margin-top:13px;color:#c3d6c7;font-size:12px}.history-table{width:100%;border-collapse:collapse}.history-table th{text-align:left;color:#8fa49d;font-size:10px;text-transform:uppercase;letter-spacing:1px}.history-table td,.history-table th{border-bottom:1px solid #2e3d3a;padding:12px 9px}.history-table td{font-size:12px}.history-table tr:last-child td{border:0}.history-wrap{overflow-x:auto}.check-reward{accent-color:var(--accent);width:19px;height:19px}.settings-block{margin-bottom:17px}.settings-block h3{margin:0 0 7px}.settings-block p{color:#8fa39c;font-size:12px;margin:0 0 14px}.settings-actions{display:flex;gap:9px;flex-wrap:wrap}.notice-banner{border:1px solid #675438;background:#372f21;border-radius:12px;padding:13px 16px;display:flex;align-items:center;justify-content:space-between;gap:8px;color:#f4d8a6;margin-bottom:19px;font-size:12px}.notice-banner button{background:transparent;border:0;color:#ffe5ae;font-size:18px}.bottom-nav{display:none}.bar-chart{height:10px;background:#2b3b36;border-radius:20px;overflow:hidden}.bar-chart>span{display:block;background:linear-gradient(90deg,#83b65b,var(--accent));height:100%;border-radius:20px}.timeline{border-left:1px solid #4e6455;margin-left:7px;padding-left:17px}.timeline-item{position:relative;padding:0 0 19px}.timeline-item:before{content:'';position:absolute;left:-22px;top:5px;width:9px;height:9px;border-radius:100%;background:var(--accent)}.timeline-item p{margin:3px 0;color:#a0b4a8;font-size:11px}.timeline-item b{font-size:12px}#toast{position:fixed;z-index:100;bottom:25px;right:25px;background:#304a37;color:#e8ffe1;border:1px solid #718b5f;padding:12px 18px;border-radius:12px;box-shadow:0 15px 50px #0009;opacity:0;pointer-events:none;transform:translateY(20px);transition:.2s;font-weight:700}#toast.show{opacity:1;transform:translateY(0)}.small-note{font-size:11px;color:#819991}.split-heading{display:flex;gap:10px;align-items:center;justify-content:space-between}.separator{height:1px;background:#34453d;margin:18px 0}.hidden{display:none!important}
+@media(max-width:1150px){.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.objective-list{grid-template-columns:1fr}.grid-main{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.sidebar{width:205px}.brand{padding-left:0}.brand-copy strong{font-size:14px}.grid-main{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.stat{padding:16px}.stat strong{font-size:30px}}
+@media(max-width:760px){.sidebar{display:none}.mobile-brand{display:flex;align-items:center;gap:9px}.mobile-brand strong{font-size:15px}.mobile-inline{display:inline}.desktop-inline,.topbar-label{display:none}.topbar{height:67px;padding:0 18px}.device-pill{display:none}#main{padding:22px 15px 94px}.footer{display:none}.bottom-nav{position:fixed;display:grid;grid-template-columns:repeat(5,1fr);bottom:0;left:0;right:0;height:calc(70px + env(safe-area-inset-bottom));padding:7px 3px max(7px,env(safe-area-inset-bottom));z-index:12;border-top:1px solid #34473a;background:#111d1bfa;backdrop-filter:blur(14px)}.bottom-nav button{border:0;background:transparent;color:#889e96;font-weight:700;display:flex;align-items:center;justify-content:center;gap:3px;flex-direction:column}.bottom-nav button.active{color:var(--accent)}.bottom-nav span{font-size:21px;line-height:1.4}.bottom-nav small{font-size:10px}.page-head h1{font-size:31px}.hero-panel{padding:18px}.modal-layer{padding:8px}.modal{max-height:94vh}.notice-banner{align-items:flex-start}.objective-list{grid-template-columns:1fr}.planner-list{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{min-height:125px}.stat strong{font-size:31px;margin-top:9px}.stat .stat-top{font-size:10px}.page-head{align-items:start;flex-direction:column}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.objective-toolbar select{flex:1;min-width:125px}#toast{bottom:86px;left:14px;right:14px;text-align:center}}
+@media(max-width:360px){.brand-mark.small{display:none}.topbar{padding:0 10px}.stat{padding:13px}.stat strong{font-size:26px}.group-top{flex-direction:column}.task-row{grid-template-columns:1fr}}
+@media(max-width:760px){.hero-panel{flex-direction:column;align-items:flex-start;gap:16px}.hero-panel .btn{align-self:flex-start}.hero-panel:after{right:-5px;top:-20px;font-size:130px}}
+
+/* FC27 Auto discovery */
+.hero-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.catalog-status{margin-bottom:18px;align-items:center}.catalog-status small{display:block;margin-top:5px;color:var(--sub)}
+.catalog-status a,.source-link{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.source-link{font-size:12px;display:inline-flex;align-items:center;font-weight:700}
+.catalog-status strong{font-size:13px}
+@media(max-width:650px){.bottom-nav{gap:0}.bottom-nav button{min-width:0;flex:1;font-size:11px}.bottom-nav button small{font-size:9px}.catalog-status{padding:12px}.hero-actions{margin-top:15px}}
+</style>
+</head>
+<body>
+<div style="background:#78542a;color:#fff;padding:12px 18px;text-align:center;font:600 13px sans-serif">OFFLINE PREVIEW ONLY · This file cannot refresh objectives. Install the hosted v3 app for automatic updates. The bundled snapshot contains only 4 old groups.</div>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">27<span>↗</span></div><div class="brand-copy"><strong>OBJECTIVE<span>HUB</span></strong><small>FC27 · ULTIMATE TEAM</small></div></div>
+    <div class="sidebar-section">YOUR WORKSPACE</div>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <button class="nav-link active" data-nav="home"><span class="nav-symbol">◫</span> Overview</button>
+      <button class="nav-link" data-nav="discover"><span class="nav-symbol">↻</span> Discover new</button>
+      <button class="nav-link" data-nav="objectives"><span class="nav-symbol">☑</span> Objectives</button>
+      <button class="nav-link" data-nav="planner"><span class="nav-symbol">⌁</span> Match planner</button>
+      <button class="nav-link" data-nav="matches"><span class="nav-symbol">⚽</span> Match log</button>
+      <button class="nav-link" data-nav="rewards"><span class="nav-symbol">♛</span> Rewards</button>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="privacy-note"><span class="live-dot"></span> Stored on this device<br/><small>No EA login · No account sync</small></div>
+      <button class="nav-link" data-nav="settings"><span class="nav-symbol">⚙</span> Settings & backup</button>
+      <div class="unofficial">UNOFFICIAL FAN-MADE TRACKER<br/>Not affiliated with EA SPORTS.</div>
+    </div>
+  </aside>
+  <div class="main-column">
+    <header class="topbar">
+      <div class="mobile-brand"><div class="brand-mark small">27<span>↗</span></div><strong>OBJECTIVE<span>HUB</span></strong></div>
+      <div class="topbar-label">ULTIMATE TEAM <span class="topbar-divider">/</span> <span id="breadcrumb">OVERVIEW</span></div>
+      <div class="top-actions"><span class="device-pill"><span class="live-dot"></span> LOCAL SAVE</span><button id="header-add" data-action="new-group" class="btn btn-primary btn-small">＋ <span class="desktop-inline">New objective</span><span class="mobile-inline">New</span></button></div>
+    </header>
+    <main id="main" tabindex="-1" aria-live="polite"></main>
+    <footer class="footer">Made for your grind, not your password. <span>FC27 Objective Hub · Unofficial companion</span></footer>
+  </div>
+  <nav class="bottom-nav" aria-label="Mobile navigation">
+    <button data-nav="home" class="active"><span>◫</span><small>Home</small></button>
+    <button data-nav="discover"><span>↻</span><small>Discover</small></button>
+    <button data-nav="objectives"><span>☑</span><small>Objectives</small></button>
+    <button data-nav="planner"><span>⌁</span><small>Planner</small></button>
+    <button data-nav="matches"><span>⚽</span><small>Log</small></button>
+    <button data-nav="rewards"><span>♛</span><small>Rewards</small></button>
+  </nav>
+</div>
+<div id="modal-root"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="import-file" accept=".json,application/json" hidden />
+<script>window.__FC27_SNAPSHOT__={
+  "version": 2,
+  "source": "FCData public objective pages",
+  "sourceUrl": "https://fcdata.io/objectives",
+  "updatedAt": "2026-10-27T16:00:00Z",
+  "live": false,
+  "totalFound": 4,
+  "detailCount": 4,
+  "skipped": 0,
+  "groups": [
+    {
+      "sourceKey": "fcdata:168",
+      "sourceUrl": "https://fcdata.io/objectives/168-daily-objectives/",
+      "title": "Daily Objectives",
+      "category": "Daily",
+      "expires": "2026-10-29T17:59",
+      "reward": "10 SP",
+      "sp": 10,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "Play 1",
+          "metric": "matches",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in any FUT game mode."
+        },
+        {
+          "description": "Scoring Success",
+          "metric": "goals",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Score 2 goals in any FUT game mode."
+        }
+      ]
+    },
+    {
+      "sourceKey": "fcdata:163",
+      "sourceUrl": "https://fcdata.io/objectives/163-feral-strength-flash-rush/",
+      "title": "Feral Strength Flash Rush",
+      "category": "Campaign",
+      "expires": "2026-10-27T17:59",
+      "reward": "100 Ultimate Scream Tokens · 50 SP",
+      "sp": 50,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "Winning Flex",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Rush",
+          "rule": "Win 3 matches in Feral Strength Flash Rush."
+        },
+        {
+          "description": "Show Your Strength",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Score at least 2 goals with a defender in the event."
+        },
+        {
+          "description": "Powerful Ally",
+          "metric": "assists",
+          "target": 3,
+          "mode": "Rush",
+          "rule": "Assist 3 goals in the event."
+        }
+      ]
+    },
+    {
+      "sourceKey": "fcdata:158",
+      "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
+      "title": "FC Heritage Circuit Tournament",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "85 Alexis Sánchez",
+      "sp": 0,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "Heritage Champion",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Live Events",
+          "rule": "Win tournament 3 times; verify match/event rules."
+        },
+        {
+          "description": "Thunder Final",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Win tournament with at least 2 Premier League players in starting 11."
+        },
+        {
+          "description": "Ligue 1 Finest",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Live Events",
+          "rule": "Win 2 matches with 2 Ligue 1 players in starting 11."
+        },
+        {
+          "description": "Oranje Legacy",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Live Events",
+          "rule": "Assist in 3 separate matches with 1 Dutch player in starting 11."
+        },
+        {
+          "description": "Madrid Royalty",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Live Events",
+          "rule": "Score in 3 separate matches with Real Madrid player in starting 11."
+        },
+        {
+          "description": "French Thrill",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Score 2 goals in 1 match with at least 1 French player in starting 11."
+        },
+        {
+          "description": "Serie A after Dark",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Win Quarter-Finals with 2 Serie A players in starting 11."
+        }
+      ]
+    },
+    {
+      "sourceKey": "fcdata:164",
+      "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
+      "title": "FC Heritage Circuit Completionist",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "84 Jeremiah St. Juste",
+      "sp": 0,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "FC Heritage Circuit World Class Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the World Class Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Professional Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Professional Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Semi-Pro Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Semi-Pro Event objective."
+        }
+      ]
+    }
+  ]
+}
+;</script>
+<script>(() => {
+'use strict';
+const KEY='fc27hub.v1', CATALOG_KEY='fc27hub.catalog.v2', IGNORED_KEY='fc27hub.dismissed.v2';
+const CATS=['Daily','Weekly','Season','Campaign','Live Events','Evolutions','Foundations','Milestones','Mastery','FC Pro','Other'];
+const MODES=['Any','Squad Battles','Rivals','Champions','Rush','Friendlies','Live Events','Other'];
+const METRICS=['matches','wins','goals','assists','custom'];
+const getId=()=> (crypto?.randomUUID?.() || ('id-'+Date.now()+'-'+Math.random().toString(36).slice(2)));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtNum=n=>Number(n||0).toLocaleString();
+const cap=(n,a,b)=>Math.min(Math.max(n,a),b);
+const pct=(a,b)=>b>0?Math.round(100*a/b):0;
+const nowInput=(date=new Date())=>{let d=new Date(date.getTime()-date.getTimezoneOffset()*60000);return d.toISOString().slice(0,16)};
+const demoExpiry=days=>nowInput(new Date(Date.now()+days*86400000));
+const mkTask=(desc,metric,target,mode='Any',rule='')=>({id:getId(),description:desc,metric,target,manual:0,mode,rule});
+const demoGroups=()=>[
+ {id:getId(),title:'Weekend Warm-up',category:'Weekly',mode:'Rivals',expires:demoExpiry(5),reward:'Example player pack',sp:400,claimed:false,notes:'Fictional sample, not an active FC 27 objective.',source:'demo',created:new Date().toISOString(),tasks:[mkTask('Play 3 Rivals matches','matches',3,'Rivals'),mkTask('Win 2 matches','wins',2,'Rivals'),mkTask('Score 5 goals','goals',5,'Rivals')]},
+ {id:getId(),title:'Creative Midfield',category:'Campaign',mode:'Any',expires:demoExpiry(11),reward:'Example player pick',sp:600,claimed:false,notes:'Fictional sample. Replace with the actual in-game requirements.',source:'demo',created:new Date().toISOString(),tasks:[mkTask('Record 8 assists','assists',8,'Any'),mkTask('Play 4 matches with a league-specific squad','matches',4,'Any','League-specific squad')]},
+ {id:getId(),title:'Evolution Practice',category:'Evolutions',mode:'Squad Battles',expires:demoExpiry(18),reward:'Example Evo stage',sp:0,claimed:false,notes:'Fictional sample for demonstrating Evolution progress.',source:'demo',created:new Date().toISOString(),tasks:[mkTask('Play 3 Squad Battles matches with your Evo player','matches',3,'Squad Battles','Evo player in squad'),mkTask('Score 4 goals using your Evo player','goals',4,'Squad Battles','Goals with Evo player')]}
+];
+const fresh=(withDemo=false)=>({schema:1,groups:withDemo?demoGroups():[],logs:[],settings:{seasonGoal:10000,demoBanner:withDemo}});
+function readState(){try{let raw=localStorage.getItem(KEY);if(!raw)return fresh(false);let d=JSON.parse(raw);if(!d||d.schema!==1||!Array.isArray(d.groups)||!Array.isArray(d.logs))throw new Error('Incompatible data');return cleanState(d)}catch(e){console.warn('Unable to load saved state:',e);return fresh()}}
+function cleanState(d){let groups=d.groups.slice(0,2000).map(g=>({id:String(g.id||getId()),title:String(g.title||'Untitled objective').slice(0,140),category:CATS.includes(g.category)?g.category:'Other',mode:MODES.includes(g.mode)?g.mode:'Any',expires:typeof g.expires==='string'&&g.expires.length<40?g.expires:'',reward:String(g.reward||'').slice(0,150),sp:cap(Number(g.sp)||0,0,100000000),claimed:!!g.claimed,notes:String(g.notes||'').slice(0,2000),source:g.source==='demo'?'demo':g.source==='fcdata'?'fcdata':'manual',sourceKey:String(g.sourceKey||'').slice(0,100),sourceUrl:String(g.sourceUrl||'').slice(0,300),sourceUpdated:String(g.sourceUpdated||'').slice(0,60),created:g.created||new Date().toISOString(),tasks:Array.isArray(g.tasks)?g.tasks.slice(0,100).map(t=>({id:String(t.id||getId()),description:String(t.description||'Task').slice(0,180),metric:METRICS.includes(t.metric)?t.metric:'custom',target:cap(Math.floor(Number(t.target)||1),1,1000000),manual:cap(Math.floor(Number(t.manual)||0),0,1000000),mode:MODES.includes(t.mode)?t.mode:'Any',rule:String(t.rule||'').slice(0,180),sourceTaskKey:String(t.sourceTaskKey||'').slice(0,90)})):[]}));let logs=d.logs.slice(0,10000).map(l=>({id:String(l.id||getId()),date:String(l.date||nowInput()),mode:MODES.includes(l.mode)?l.mode:'Other',won:!!l.won,goals:cap(Number(l.goals)||0,0,99),assists:cap(Number(l.assists)||0,0,99),notes:String(l.notes||'').slice(0,1000),advances:Array.isArray(l.advances)?l.advances.slice(0,500).map(a=>({taskId:String(a.taskId||''),delta:cap(Number(a.delta)||0,0,1000)})):[]}));return{schema:1,groups,logs,settings:{seasonGoal:cap(Number(d.settings?.seasonGoal)||10000,1,100000000),demoBanner:!!d.settings?.demoBanner}}}
+const readIgnored=()=>{try{return new Set(JSON.parse(localStorage.getItem(IGNORED_KEY)||'[]'))}catch(_){return new Set()}};
+let ignored=readIgnored();let state=readState();let catalog=[],catalogMeta=null,catalogError='',catalogBusy=false;let route='home', filterQuery='', filterCat='All', filterStatus='All', matchSelected=new Set(), toastTimer;
+function save(){for(const g of state.groups){if(!isDone(g))g.claimed=false}try{localStorage.setItem(KEY,JSON.stringify(state));return true}catch(e){toast('Storage full or blocked. Export a backup!',true);return false}}
+function toast(s,warning=false){const t=document.getElementById('toast');t.textContent=s;t.style.background=warning?'#54322b':'#304a37';t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2800)}
+const allTasks=()=>state.groups.flatMap(g=>g.tasks.map(t=>({g,t})));
+const contributions=id=>state.logs.reduce((s,l)=>s+l.advances.reduce((n,a)=>n+(a.taskId===id?a.delta:0),0),0);
+const value=t=>cap(t.manual+contributions(t.id),0,t.target);
+const isDone=g=>g.tasks.length>0&&g.tasks.every(t=>value(t)>=t.target);
+const groupProgress=g=>{let done=g.tasks.filter(t=>value(t)>=t.target).length;return{done,total:g.tasks.length,percent:pct(done,g.tasks.length)}};
+const completed=()=>state.groups.filter(isDone);
+const earnedSp=()=>completed().reduce((n,g)=>n+g.sp,0);
+const expiresAt=g=>g.expires?new Date(g.expires).getTime():Infinity;
+const isExpired=g=>!isNaN(expiresAt(g))&&expiresAt(g)<Date.now();
+function timeLabel(g){if(!g.expires)return 'No deadline';let end=expiresAt(g);if(!isFinite(end))return 'No deadline';let diff=end-Date.now();if(diff<=0)return 'Expired';if(diff<86400000)return `${Math.ceil(diff/3600000)}h left`;return `${Math.ceil(diff/86400000)}d left`}
+const dueSoon=g=>!isDone(g)&&g.expires&&!isExpired(g)&&(expiresAt(g)-Date.now())<3*86400000;
+function dayLabel(s){if(!s)return 'No deadline';let d=new Date(s);return isNaN(d)?'Unknown':new Intl.DateTimeFormat(undefined,{month:'short',day:'numeric',year:'numeric'}).format(d)}
+const modalRoot=document.getElementById('modal-root');const main=document.getElementById('main');
+function groupById(id){return state.groups.find(g=>g.id===id)}
+function taskById(id){for(let g of state.groups){let t=g.tasks.find(t=>t.id===id);if(t)return {g,t}}return null}
+function badge(s,type=''){return `<span class="group-tag ${type?'tag-'+type:''}">${esc(s)}<\/span>`}
+function heading(title,subtitle,eyebrow='YOUR TRACKER',actions=''){return `<div class="page-head"><div><div class="eyebrow">${eyebrow}<\/div><h1>${title}<\/h1><p>${subtitle}<\/p><\/div>${actions?`<div class="header-buttons">${actions}<\/div>`:''}<\/div>`}
+const progress=(v,max,cls='')=>`<div class="progress-track ${cls}"><div class="progress-fill" style="width:${pct(v,max)}%"><\/div><\/div>`;
+const empty=(title,detail,action='')=>`<div class="empty"><div class="empty-icon">◎<\/div><h3>${title}<\/h3><p>${detail}<\/p>${action}<\/div>`;
+function demoBanner(){return state.settings.demoBanner&&state.groups.some(g=>g.source==='demo')?`<div class="notice-banner"><div><strong>DEMO OBJECTIVES<\/strong> · The example challenges are fictional. Add the exact objectives from your FC 27 game menu.<\/div><button aria-label="Dismiss demo notice" data-action="hide-demo-banner">×<\/button><\/div>`:''}
+function statCard(label,num,footer,sign='',cls=''){return `<div class="stat ${cls}"><div class="stat-top">${esc(label)}<span class="stat-symbol">${sign}<\/span><\/div><strong>${num}<\/strong><div class="stat-foot">${footer}<\/div><\/div>`}
+function miniGroup(g){let p=groupProgress(g);return `<div class="group-card"><div class="group-top"><div>${badge(g.category)} ${g.source==='demo'?badge('DEMO','demo'):''}<h3>${esc(g.title)}<\/h3><div class="group-meta">${esc(g.mode)} · ${esc(timeLabel(g))}${g.sp?' · '+fmtNum(g.sp)+' SP':''}<\/div><\/div>${isDone(g)?badge('DONE','green'):badge(`${p.done}/${p.total} tasks`,dueSoon(g)?'red':'blue')}<\/div><div class="progress-line"><span>${p.done} of ${p.total} tasks completed<\/span><strong>${p.percent}%<\/strong><\/div>${progress(p.done,p.total)}<div style="margin-top:12px"><button class="link-btn" data-action="view-group" data-id="${esc(g.id)}">View & update progress →<\/button><\/div><\/div>`}
+// Third-party objective catalogue is public information, never EA user progress.
+// All imports are non-destructive: existing task IDs, progress, match logs and claims stay untouched.
+function validateCatalog(data){
+ if(!data||!Array.isArray(data.groups)||data.groups.length>200||data.version!==2)throw Error('Invalid catalogue format');
+ const valid=[];
+ for(const raw of data.groups){
+  if(!/^fcdata:\d{1,10}$/.test(raw.sourceKey||''))continue;
+  if(!/^https:\/\/fcdata\.io\/objectives\/\d+-[a-z0-9-]+\/?$/i.test(raw.sourceUrl||''))continue;
+  if(typeof raw.title!=='string'||!raw.title.trim()||!Array.isArray(raw.tasks)||raw.tasks.length>100)continue;
+  const tasks=raw.tasks.filter(t=>t&&typeof t.description==='string'&&t.description.trim()).slice(0,100);
+  if(raw.detailStatus==='complete' && raw.countHint && tasks.length!==raw.countHint)continue;
+  valid.push({...raw,title:raw.title.slice(0,140),tasks});
+ }
+ if(!valid.length)throw Error('Catalogue did not contain valid listing entries');
+ return {...data,groups:valid};
+}
+function catalogSummary(){
+ if(!catalogMeta)return 'No catalogue loaded yet';
+ let when=catalogMeta.updatedAt?dayLabel(catalogMeta.updatedAt):'Unknown date';
+ return `${catalog.length} listed · ${catalog.filter(g=>g.tasks.length).length} with task details · ${catalogMeta.live?'LIVE source check':'BUNDLED SNAPSHOT'} · ${when}`;
+}
+function discover(){
+ const imported=new Set(state.groups.filter(g=>g.sourceKey).map(g=>g.sourceKey));
+ const fresh=catalog.filter(g=>g.tasks.length&&!imported.has(g.sourceKey)&&!ignored.has(g.sourceKey));
+ const missing=catalog.filter(g=>!g.tasks.length);
+ const active=catalog.filter(g=>!g.expires||new Date(g.expires).getTime()>Date.now()).sort((a,b)=>new Date(a.expires||'2099')-new Date(b.expires||'2099'));
+ const issues=(catalogMeta?.warnings||[]).join(' ');
+ const status=catalogBusy?'Checking FCData for new objectives…':catalogError?`Refresh error: ${catalogError}`:catalogSummary();
+ const verified=catalogMeta?.coverage==='complete' && (catalogMeta?.live||catalogMeta?.sourceMode==='SCHEDULED STATIC UPDATE');
+ return `${heading('Discover objectives','Published FC 27 challenges, with manual in-game completion tracking.','FC27 / AUTO DISCOVERY',`<button class="btn btn-primary btn-small" data-action="sync-catalog" ${catalogBusy?'disabled':''}>↻ ${catalogBusy?'Checking…':'Check for new'}<\/button>`)}
+ <div class="notice-banner catalog-status"><div><strong>${verified?'LIVE CHECK COMPLETE':catalogMeta?.live?'PARTIAL LIVE CHECK':catalogMeta?.sourceMode==='SCHEDULED STATIC UPDATE'?'SCHEDULED CATALOG CHECK':catalog.length?'SAVED / OFFLINE CATALOGUE':'NOT CONNECTED'}<\/strong>
+ <p style="margin:4px 0 0">${esc(status)}<\/p>
+ ${issues?`<p class="small-note" style="color:var(--gold,#ffd980)">${esc(issues)}<\/p>`:''}
+ ${missing.length?`<p class="small-note">${missing.length} listed objectives are missing verified task details. They remain visible below, but cannot be automatically added until verified.<\/p>`:''}
+ <small>Source: <a href="https://fcdata.io/objectives" target="_blank" rel="noopener noreferrer">FCData<\/a>. Source coverage may differ from the in-game catalog. Progress is not synced with EA. If you're opening an HTML file directly, live updates are NOT available; deploy the backend for automatic refresh.<\/small><\/div><\/div>
+ <div class="stats-grid">${statCard('Source listings',catalog.length,'Including entries missing tasks','◎')}${statCard('Ready to import',fresh.length,'Verified task details available','＋')}${statCard('In your tracker',imported.size,'Manually tracked groups','✓')}${statCard('Missing details',missing.length,'Requires source verification','!')}<\/div>
+ <section class="panel"><div class="section-title"><div><h2>Objective catalogue<\/h2><p class="muted">All source-listed active groups shown. Already tracked progress and match logs remain intact.<\/p><\/div><button class="btn btn-primary btn-small" data-action="import-catalog" ${fresh.length?'':'disabled'}>＋ Import ${fresh.length} new<\/button><\/div>
+ ${active.length?`<div class="objective-list">${active.map(g=>{let included=imported.has(g.sourceKey);let ready=g.tasks.length>0;return `<article class="card objective-card"><div class="obj-tagline">${badge(g.category||'Other')}${badge(ready?`${g.tasks.length} tasks`:`${g.countHint||'?'} tasks listed`,'blue')}${included?badge('IN TRACKER','green'):!ready?badge('DETAILS MISSING','red'):''}<\/div><h3 class="obj-title">${esc(g.title)}<\/h3><p class="obj-description">${esc(g.reward||'See source for rewards')} · ${g.expires?dayLabel(g.expires):'No fixed expiry'}<\/p>${ready?`<p class="obj-description">${g.tasks.slice(0,3).map(x=>esc(x.description)).join(' · ')}${g.tasks.length>3?' …':''}<\/p>`:'<p class="obj-description">Tasks could not be verified during this sync. Open FCData to check.<\/p>'}<div class="card-actions"><button class="btn ${included?'btn-ghost':'btn-primary'} btn-small" data-action="import-one" data-id="${esc(g.sourceKey)}" ${included||!ready?'disabled':''}>${included?'✓ Imported':ready?'＋ Add to tracker':'Unavailable'}<\/button><a class="source-link" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer">Verify on FCData ↗<\/a><\/div><\/article>`}).join('')}<\/div>`:empty('No current objectives in the loaded catalog','Source unavailable or saved snapshot expired. Use the hosted app to fetch recent data.',`<button class="btn btn-ghost" data-action="sync-catalog">↻ Retry sync<\/button>`)}
+ <p class="small-note">FCData is an independent source. This dashboard cannot guarantee every in-game objective is listed. Check your console when discrepancies appear.<\/p><\/section>`;
+}
+async function loadSnapshot(){
+ if(catalog.length)return;
+ if(window.__FC27_SNAPSHOT__){try{const d=validateCatalog(window.__FC27_SNAPSHOT__);catalog=d.groups;catalogMeta=d;catalogError='Offline snapshot. Live sync requires a hosted backend.';render();return;}catch(_){} }
+ try{const r=await fetch('./catalog.json',{cache:'no-store'});if(!r.ok)throw Error('No local snapshot');const d=validateCatalog(await r.json());catalog=d.groups;catalogMeta=d;catalogError='Offline snapshot. Live sync requires a hosted backend.';render();}
+ catch(e){catalogError='No local snapshot available. Serve the entire folder using the included server.';render();}
+}
+async function loadCatalog(userRequested){
+ if(catalogBusy)return;
+ if(location.protocol==='file:'){catalogError='Offline HTML cannot fetch live objectives. Deploy the complete app, not only this file.';if(!catalog.length)await loadSnapshot();render();if(userRequested)toast('This file is offline. Live updates require hosting.',true);return;}
+ catalogBusy=true;catalogError='';if(route==='discover')render();
+ try{
+  let r=await fetch('/api/objectives',{cache:'no-store',signal:AbortSignal.timeout(160000)});
+  if(r.status===404){r=await fetch('./catalog.json?ts='+Date.now(),{cache:'no-store'});}
+  if(!r.ok){let message='';try{message=(await r.json()).error||''}catch(_){}throw Error(message|| (r.status===404?'This host has no auto-sync backend':`Server returned ${r.status}`));}
+  const data=validateCatalog(await r.json());
+  if(!data.live && data.sourceMode!=='SCHEDULED STATIC UPDATE')throw Error('Only a bundled offline snapshot exists; scheduled auto-update has not run');
+  catalog=data.groups;catalogMeta=data;
+  try{localStorage.setItem(CATALOG_KEY,JSON.stringify(data))}catch(_){}
+  const counts=importCatalog(null,true);
+  if(userRequested)toast(`Found ${catalog.length} groups, ${data.detailCount??catalog.filter(x=>x.tasks.length).length} detailed; ${counts.added} new, ${counts.updated} refreshed${data.coverage==='partial'?' (partial check)':''}`,data.coverage==='partial');
+ }catch(e){catalogError=String(e.message||e).slice(0,180);if(!catalog.length)await loadSnapshot();if(userRequested)toast('Refresh failed. Old progress has been preserved.',true)}
+ finally{catalogBusy=false;render()}
+}
+const taskNameKey=name=>String(name||'').trim().toLocaleLowerCase().replace(/\s+/g,' ');
+function importCatalog(key=null,silent=false){
+ const candidates=catalog.filter(g=>!key||g.sourceKey===key);
+ const existing=new Map(state.groups.filter(g=>g.sourceKey).map(g=>[g.sourceKey,g]));
+ let added=0,updated=0,tasksAdded=0;
+ for(const data of candidates){
+  if(!data.tasks?.length || (silent&&ignored.has(data.sourceKey)))continue;
+  let g=existing.get(data.sourceKey);
+  const parts=data.tasks.map(t=>({id:getId(),description:String(t.description).slice(0,180),metric:METRICS.includes(t.metric)?t.metric:'custom',target:cap(Math.round(Number(t.target)||1),1,1000000),manual:0,mode:MODES.includes(t.mode)?t.mode:'Any',rule:String(t.rule||'').slice(0,180),sourceTaskKey:String(t.sourceTaskKey||'').slice(0,90)}));
+  if(!g){
+   ignored.delete(data.sourceKey);
+   g={id:getId(),title:String(data.title).slice(0,140),category:CATS.includes(data.category)?data.category:'Other',mode:'Any',expires:data.expires||'',reward:String(data.reward||'').slice(0,150),sp:cap(Number(data.sp)||0,0,1000000),claimed:false,notes:String(data.notes||'Source requirements require in-game verification.').slice(0,2000),source:'fcdata',sourceKey:data.sourceKey,sourceUrl:data.sourceUrl,sourceUpdated:catalogMeta?.updatedAt||'',created:new Date().toISOString(),tasks:parts};
+   state.groups.push(g);existing.set(data.sourceKey,g);added++;tasksAdded+=parts.length;
+  }else{
+   let changed=false;
+   for(const field of ['title','category','expires','reward','sp']){
+    const incoming=field==='sp'?Number(data[field]||0):data[field];
+    if((incoming!==undefined&&incoming!==null&&incoming!=='')&&g[field]!==incoming){g[field]=incoming;changed=true;}
+   }
+   for(const t of parts){
+    let match=g.tasks.find(x=>(t.sourceTaskKey&&x.sourceTaskKey===t.sourceTaskKey)||taskNameKey(x.description)===taskNameKey(t.description));
+    if(match){if(t.sourceTaskKey&&!match.sourceTaskKey){match.sourceTaskKey=t.sourceTaskKey;changed=true;}continue;}
+    g.tasks.push(t);tasksAdded++;changed=true;
+   }
+   if(changed)updated++;
+   g.sourceUpdated=catalogMeta?.updatedAt||g.sourceUpdated;
+  }
+ }
+ if(added||updated){state.settings.demoBanner=false;save();try{localStorage.setItem(IGNORED_KEY,JSON.stringify([...ignored]))}catch(_){}}
+ if(!silent){toast(`${added} new groups; ${updated} existing updated; ${tasksAdded} new tasks`);render();}
+ return {added,updated,tasksAdded};
+}
+function home(){let done=completed(),taskItems=allTasks(),finished=taskItems.filter(x=>value(x.t)>=x.t.target).length,urgent=state.groups.filter(dueSoon).sort((a,b)=>expiresAt(a)-expiresAt(b)),active=state.groups.filter(g=>!isDone(g)&&!isExpired(g)).sort((a,b)=>expiresAt(a)-expiresAt(b)),rewardCount=done.filter(g=>!g.claimed&&g.reward).length,sp=earnedSp();return `${demoBanner()}${heading('Your grind, organized.','New objectives appear automatically when the live feed is available. Track your games manually.','FC27 / COMMAND CENTER',`<button class="btn btn-ghost btn-small" data-action="open-match">⚽ Log a match<\/button>`)}<div class="hero-panel"><div><span class="hero-pill">SEASON PROGRESS · MANUALLY TRACKED<\/span><h2>${fmtNum(sp)} / ${fmtNum(state.settings.seasonGoal)} SP<\/h2><p>Points from completed objectives you entered into this tracker.<\/p><div style="width:min(320px,75vw)">${progress(Math.min(sp,state.settings.seasonGoal),state.settings.seasonGoal)}<\/div><\/div><div class="hero-actions"><button class="btn btn-primary" data-nav="discover">↻ Discover objectives<\/button><button class="btn btn-ghost" data-nav="planner">Plan next match ↗<\/button><\/div><\/div><section class="stats-grid">${statCard('Objectives',state.groups.length,`${state.groups.length-done.length} remaining`,'◫')}${statCard('Completed',done.length,`${finished} / ${taskItems.length} individual tasks`,'✓')}${statCard('Expiring soon',urgent.length,'Within the next 72 hours','◷','stat-red')}${statCard('Rewards to claim',rewardCount,'Completed, unclaimed rewards','♛','stat-gold')}<\/section><div class="grid-main"><section class="panel"><div class="section-title"><h2>Continue where you left off<\/h2><button class="link-btn" data-nav="objectives">All objectives →<\/button><\/div>${active.length?active.slice(0,3).map(miniGroup).join(''):empty('Nothing on your list yet','Add a real FC 27 objective, then track each requirement as you play.',`<button class="btn btn-primary" data-action="new-group">＋ Add objective<\/button>`)}<\/section><section class="panel"><div class="section-title"><h2>Deadline watch<\/h2><span class="subtext">Next up<\/span><\/div>${urgent.length?`<div class="tiny-list">${urgent.slice(0,6).map(g=>`<div class="tiny-row"><div><strong>${esc(g.title)}<\/strong><small>${esc(g.category)} · ${dayLabel(g.expires)}<\/small><\/div><span class="chip urgent">${esc(timeLabel(g))}<\/span><\/div>`).join('')}<\/div>`:empty('No urgent deadlines','Objectives expiring in the next 72 hours will show here.')}<div class="separator"><\/div><div class="section-title"><h2>Match history<\/h2><button class="link-btn" data-nav="matches">View all →<\/button><\/div>${state.logs.length?`<div class="timeline">${state.logs.slice().sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,3).map(l=>`<div class="timeline-item"><b>${esc(l.mode)} · ${l.won?'Win':'Played'}<\/b><p>${dayLabel(l.date)} · ${l.goals} goal(s), ${l.assists} assist(s)<\/p><\/div>`).join('')}<\/div>`:`<p class="muted">No matches logged. Your progress begins whenever you're ready.<\/p>`}<\/section><\/div>`}
+function taskMarkup(t,g){let v=value(t),done=v>=t.target;return `<div class="task-row ${done?'task-done':''}"><div><div class="task-title">${esc(t.description)}<\/div><div class="task-desc">${t.metric==='custom'?'Manual tracking':esc(t.metric)} · ${esc(t.mode)}${t.rule?' · '+esc(t.rule):''}<\/div><div class="mini-track"><span style="width:${pct(v,t.target)}%"><\/span><\/div><\/div><div class="task-action"><button class="btn-icon" data-action="decrement-task" data-id="${esc(t.id)}" aria-label="Decrease ${esc(t.description)}">−<\/button><span class="task-count">${v}/${t.target}<\/span><button class="btn-icon" data-action="increment-task" data-id="${esc(t.id)}" aria-label="Increase ${esc(t.description)}" ${done?'disabled':''}>＋<\/button><button class="btn-icon" data-action="edit-task" data-group="${esc(g.id)}" data-id="${esc(t.id)}" title="Edit task" aria-label="Edit task">⋯<\/button><\/div><\/div>`}
+function objectiveCard(g,expanded=false){let p=groupProgress(g),done=isDone(g);return `<article class="card objective-card"><div class="obj-tagline">${badge(g.category)}${badge(g.mode,'blue')}${g.source==='demo'?badge('DEMO','demo'):g.source==='fcdata'?badge('CATALOG','green'):''}${done?badge('COMPLETED','green'):isExpired(g)?badge('EXPIRED','red'):dueSoon(g)?badge(timeLabel(g),'red'):''}<\/div><h3 class="obj-title">${esc(g.title)}<\/h3><p class="obj-description">${esc(g.reward||'No reward specified')} ${g.sp?' · '+fmtNum(g.sp)+' SP':''} · ${g.expires?dayLabel(g.expires):'No deadline'}<\/p>${g.notes?`<p class="obj-description" style="margin-top:7px">${esc(g.notes)}<\/p>`:''}${g.sourceUrl?`<a class="source-link" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer">View source ↗<\/a>`:''}<div class="objective-summary"><span>${p.done} / ${p.total} tasks<\/span><strong>${p.percent}% complete<\/strong><\/div>${progress(p.done,p.total)}${expanded?`<div class="task-list">${g.tasks.length?g.tasks.map(t=>taskMarkup(t,g)).join(''):'<p class="muted">No tasks. Add a requirement to start tracking.<\/p>'}<button class="btn btn-ghost btn-small" data-action="add-task" data-id="${esc(g.id)}">＋ Add requirement<\/button><\/div>`:''}<div class="card-actions"><button class="btn btn-ghost btn-small" data-action="view-group" data-id="${esc(g.id)}">${expanded?'Hide details':'View tasks'} ▾<\/button><button class="btn btn-ghost btn-small" data-action="edit-group" data-id="${esc(g.id)}">Edit<\/button><\/div><\/article>`}
+let expandedGroups=new Set();
+function objectives(){let groups=state.groups.filter(g=>{let q=(g.title+' '+g.notes+' '+g.tasks.map(t=>t.description).join(' ')).toLowerCase();let matches= q.includes(filterQuery.toLowerCase());let status=filterStatus==='All'||filterStatus==='Completed'&&isDone(g)||filterStatus==='In progress'&&!isDone(g)&&g.tasks.some(t=>value(t)>0)||filterStatus==='Not started'&&!isDone(g)&&g.tasks.every(t=>value(t)===0)||filterStatus==='Expired'&&isExpired(g)||filterStatus==='Urgent'&&dueSoon(g);return matches&&(filterCat==='All'||g.category===filterCat)&&status});groups.sort((a,b)=>expiresAt(a)-expiresAt(b));return `${demoBanner()}${heading('Objectives','Create a group for each in-game challenge, then add its requirements.','PROGRESS TRACKER',`<button class="btn btn-ghost btn-small" data-nav="discover">↻ Discover objectives<\/button><button class="btn btn-primary btn-small" data-action="new-group">＋ New objective<\/button>`)}<div class="objective-toolbar"><input id="objective-search" aria-label="Search objectives" class="search-input" placeholder="Search objectives or requirements..." value="${esc(filterQuery)}"/><select class="control" id="category-filter" aria-label="Filter category"><option>All<\/option>${CATS.map(c=>`<option ${filterCat===c?'selected':''}>${esc(c)}<\/option>`).join('')}<\/select><select class="control" id="status-filter" aria-label="Filter status">${['All','In progress','Not started','Completed','Urgent','Expired'].map(s=>`<option ${filterStatus===s?'selected':''}>${s}<\/option>`).join('')}<\/select><\/div><div class="objective-list" id="objective-results">${groups.length?groups.map(g=>objectiveCard(g,expandedGroups.has(g.id))).join(''):empty('No matching objectives','Try changing the filters or create your first objective.',`<button class="btn btn-primary" data-action="new-group">＋ Add objective<\/button>`)}<\/div>`}
+function compatible(a,b){if(a.g.id===b.g.id&&a.t.id===b.t.id)return false;let ma=a.t.mode==='Any'?a.g.mode:a.t.mode,mb=b.t.mode==='Any'?b.g.mode:b.t.mode;if(ma!=='Any'&&mb!=='Any'&&ma!==mb)return false;let ra=a.t.rule.trim().toLowerCase(),rb=b.t.rule.trim().toLowerCase();return !(ra&&rb&&ra!==rb)}
+function planner(){let open=allTasks().filter(({g,t})=>!isExpired(g)&&value(t)<t.target&&t.metric!=='custom');let ranking=open.map(x=>({item:x,pairs:open.filter(y=>compatible(x,y)).length,urgency: x.g.expires?Math.max(0,10-(expiresAt(x.g)-Date.now())/86400000):0})).sort((a,b)=>(b.pairs+b.urgency)-(a.pairs+a.urgency));let focus=ranking[0]?.item;let pair=focus?[focus,...open.filter(o=>compatible(focus,o)&&o.t.id!==focus.t.id)].slice(0,6):[];let mode=focus?(focus.t.mode==='Any'?focus.g.mode:focus.t.mode):'Any';return `${heading('Match planner','Stack compatible requirements and spend less time grinding.','PLAY SMART',`<button class="btn btn-primary btn-small" data-action="open-match">⚽ Log a match<\/button>`)}<div class="grid-main"><section class="panel"><div class="section-title"><h2>Suggested objective stack<\/h2>${badge('RULE-BASED SUGGESTION','green')}<\/div>${focus?`<div class="planner-pair"><div class="eyebrow">RECOMMENDED MODE<\/div><h3 style="font-size:24px;margin:5px 0 13px">${esc(mode==='Any'?'Your preferred mode':mode)}<\/h3>${pair.map(({g,t})=>`<div class="tiny-row"><div><strong>${esc(t.description)}<\/strong><small>${esc(g.title)} · ${esc(t.rule||'No specific squad rule')}<\/small><\/div><span class="chip">${value(t)}/${t.target}<\/span><\/div>`).join('')}<\/div><div class="planner-tip"><strong>Important:<\/strong> This is a planning suggestion, not an EA-verified combination. Requirements mentioning goals by a specific player, separate squads, or special event rules must be checked in-game. Different explicit squad restrictions are not automatically stacked.<\/div>`:empty('No stackable match tasks','Add objectives with Goals, Assists, Wins, or Matches metrics. Completed and expired tasks are excluded.')}<\/section><section class="panel"><div class="section-title"><h2>How to stack objectives<\/h2><\/div><div class="timeline"><div class="timeline-item"><b>1. Enter real requirements<\/b><p>Copy each challenge from the game into an objective group, including required mode and squad/player conditions.<\/p><\/div><div class="timeline-item"><b>2. Look for overlap<\/b><p>The planner finds tasks with matching modes and no obviously conflicting written squad rules.<\/p><\/div><div class="timeline-item"><b>3. Log the match<\/b><p>Choose exactly which tasks were satisfied, and the app applies progress to your selected tasks.<\/p><\/div><div class="timeline-item"><b>4. Claim and track rewards<\/b><p>When a whole objective is done, mark its reward claimed.<\/p><\/div><\/div><div class="reward-box"><strong>Why manual is safer<\/strong><p class="muted" style="margin-bottom:0">No unofficial login, no account scraping, and no fabricated completion status.<\/p><\/div><\/section><\/div><section class="panel"><div class="section-title"><h2>Available match requirements (${open.length})<\/h2><\/div>${open.length?`<div class="tiny-list">${open.sort((a,b)=>expiresAt(a.g)-expiresAt(b.g)).slice(0,20).map(({g,t})=>`<div class="tiny-row"><div><strong>${esc(t.description)}<\/strong><small>${esc(g.title)} · ${esc(t.mode==='Any'?g.mode:t.mode)} · ${esc(timeLabel(g))}<\/small><\/div><span class="chip">${value(t)}/${t.target}<\/span><\/div>`).join('')}<\/div>`:empty('Nothing in the queue','Your objective list is clear, or your tasks need some requirements added.')}<\/section>`}
+function matches(){let logs=state.logs.slice().sort((a,b)=>new Date(b.date)-new Date(a.date));return `${heading('Match log','Track each match and link its stats to selected objectives.','YOUR MATCH HISTORY',`<button class="btn btn-primary btn-small" data-action="open-match">＋ Log match<\/button>`)}<div class="stats-grid">${statCard('Matches',logs.length,'Total recorded','⚽')}${statCard('Wins',logs.filter(l=>l.won).length,'Matches marked as wins','✓')}${statCard('Goals',logs.reduce((n,l)=>n+l.goals,0),'Across logged matches','◎')}${statCard('Assists',logs.reduce((n,l)=>n+l.assists,0),'Across logged matches','↗')}<\/div><section class="panel"><div class="section-title"><h2>Recent matches<\/h2><span class="small-note">Deleting a match reverses the progress it added<\/span><\/div>${logs.length?`<div class="history-wrap"><table class="history-table"><thead><tr><th>Date<\/th><th>Mode<\/th><th>Result<\/th><th>Goals<\/th><th>Assists<\/th><th>Tasks updated<\/th><th><\/th><\/tr><\/thead><tbody>${logs.map(l=>`<tr><td>${esc(dayLabel(l.date))}<\/td><td>${esc(l.mode)}<\/td><td>${l.won?badge('Win','green'):'Played'}<\/td><td>${l.goals}<\/td><td>${l.assists}<\/td><td>${l.advances.length}<\/td><td><button class="btn btn-ghost btn-small" data-action="delete-match" data-id="${esc(l.id)}">Undo<\/button><\/td><\/tr>`).join('')}<\/tbody><\/table><\/div>`:empty('No matches logged','Log one match, choose the tasks that counted, and watch those progress bars move.',`<button class="btn btn-primary" data-action="open-match">＋ Log first match<\/button>`)}<\/section>`}
+function rewards(){let ready=state.groups.filter(g=>isDone(g)&&!g.claimed&&(g.reward||g.sp)),claimed=state.groups.filter(g=>isDone(g)&&g.claimed),locked=state.groups.filter(g=>!isDone(g));let sections=[['Ready to claim',ready,'Your completed objectives with rewards still unclaimed.'],['Claimed',claimed,'Rewards you have already marked as claimed.'],['Still in progress',locked,'Finish every requirement to unlock these rewards.']];return `${heading('Rewards center','Keep tabs on packs, player picks, Season Points, and unclaimed prizes.','THE REWARD VAULT')}<section class="stats-grid">${statCard('Season points',fmtNum(earnedSp()),'From completed objective groups','✦','stat-gold')}${statCard('Ready to claim',ready.length,'Completed, unclaimed groups','♛')}${statCard('Claimed',claimed.length,'Already collected','✓')}${statCard('In progress',locked.length,'Not completed yet','◷')}<\/section>${sections.map(([title,groups,sub])=>`<section class="panel" style="margin-bottom:17px"><div class="section-title"><div><h2>${title}<\/h2><div class="small-note">${sub}<\/div><\/div>${badge(groups.length,'blue')}<\/div>${groups.length?`<div class="tiny-list">${groups.map(g=>`<div class="tiny-row"><div><strong>${esc(g.title)} ${g.source==='demo'?badge('DEMO','demo'):''}<\/strong><small>${esc(g.reward||'No item reward')} ${g.sp?'· '+fmtNum(g.sp)+' SP':''}<\/small><\/div>${isDone(g)?`<button class="btn ${g.claimed?'btn-ghost':'btn-primary'} btn-small" data-action="toggle-claim" data-id="${esc(g.id)}">${g.claimed?'↶ Unclaim':'✓ Mark claimed'}<\/button>`:`<span class="chip">${groupProgress(g).percent}%<\/span>`}<\/div>`).join('')}<\/div>`:'<p class="muted">Nothing here yet.<\/p>'}<\/section>`).join('')}<p class="small-note">Season Points shown here are calculated from completed objectives, not synced from the EA servers.<\/p>`}
+function settings(){return `${heading('Settings & backups','Control your season goal and keep your progress safe.','PREFERENCES')}<div class="grid-main"><section class="panel"><div class="settings-block"><h3>Season points target<\/h3><p>Set a personal SP goal to display on the Overview dashboard.<\/p><form id="goal-form"><div class="form-grid"><div class="field"><label for="goal">Goal (SP)<\/label><input class="control" id="goal" name="goal" type="number" min="1" max="100000000" required value="${state.settings.seasonGoal}"/><\/div><div class="field" style="justify-content:end"><button class="btn btn-primary" type="submit">Save goal<\/button><\/div><\/div><\/form><\/div><div class="separator"><\/div><div class="settings-block"><h3>Your data, your control<\/h3><p>Everything is stored locally in this browser. Clearing site data, switching devices, or using private browsing may erase it. Export backups regularly.<\/p><div class="settings-actions"><button class="btn btn-primary" data-action="export">↓ Export JSON backup<\/button><button class="btn btn-ghost" data-action="import">↑ Import JSON backup<\/button><\/div><\/div><div class="separator"><\/div><div class="settings-block"><h3>Starter objectives<\/h3><p>Remove fictional demo examples and start entering the real objectives you see in FC 27.<\/p><div class="settings-actions"><button class="btn btn-ghost" data-action="clear-demo">Remove demo groups<\/button><button class="btn btn-danger" data-action="reset-all">Reset everything<\/button><\/div><\/div><\/section><section class="panel"><div class="section-title"><h2>About FC27 Objective Hub<\/h2><\/div><div class="hint">An unofficial objective companion. Catalog items may be imported from a third-party public listing, but all in-game completion progress is manual. It does not connect to your EA account or read your progress from EA servers.<\/div><p class="muted">To discover objective requirements, open Discover. The server fetches FCData listings at most once per 12 hours; an offline snapshot is also included. If automatic checking fails, no saved progress is removed. Always confirm requirements and expiration times in-game.<\/p><div class="tiny-list"><div class="tiny-row"><div><strong>Current data<\/strong><small>${state.groups.length} objective groups · ${state.logs.length} match logs<\/small><\/div>${badge('LOCAL','green')}<\/div><div class="tiny-row"><div><strong>Backup format<\/strong><small>Portable JSON file; import to another browser<\/small><\/div>${badge('V1','blue')}<\/div><div class="tiny-row"><div><strong>Objective catalog<\/strong><small>Third-party discovery; EA progress stays manual<\/small><\/div>${badge('CATALOG','gold')}<\/div><\/div><div class="separator"><\/div><a href="https://www.fut.gg/objectives/" target="_blank" rel="noopener noreferrer">Browse external FUT objective listings ↗<\/a><p class="small-note">Third-party link. Objective listings and coverage can change.<\/p><\/section><\/div>`}
+function render(){document.getElementById('breadcrumb').textContent=({home:'OVERVIEW',discover:'DISCOVER',objectives:'OBJECTIVES',planner:'MATCH PLANNER',matches:'MATCH LOG',rewards:'REWARDS',settings:'SETTINGS'})[route];document.querySelectorAll('[data-nav]').forEach(b=>{b.classList.toggle('active',b.dataset.nav===route);if(b.dataset.nav===route)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});main.innerHTML=({home,discover,objectives,planner,matches,rewards,settings})[route]();}
+function navigate(r){route=r;render();scrollTo({top:0,behavior:'instant'})}
+function openModal(title,body,footer='',large=false){modalRoot.innerHTML=`<div class="modal-layer" data-overlay="1"><div class="modal ${large?'large':''}" role="dialog" aria-modal="true" aria-label="${esc(title)}"><div class="modal-head"><h2>${esc(title)}<\/h2><button class="btn-icon" data-action="close-modal" aria-label="Close dialog">×<\/button><\/div><div class="modal-body">${body}<\/div>${footer?`<div class="modal-footer">${footer}<\/div>`:''}<\/div><\/div>`;modalRoot.querySelector('input,select,button')?.focus()}
+const closeModal=()=>{modalRoot.innerHTML='';matchSelected.clear()};
+const field=(label,name,type,value='',opts='')=>`<div class="field"><label for="m-${name}">${label}<\/label><input class="control" id="m-${name}" name="${name}" type="${type}" value="${esc(value)}" ${opts}/><\/div>`;
+const select=(label,name,choices,value)=>`<div class="field"><label for="m-${name}">${label}<\/label><select class="control" name="${name}" id="m-${name}">${choices.map(x=>`<option value="${esc(x)}" ${x===value?'selected':''}>${esc(x)}<\/option>`).join('')}<\/select><\/div>`;
+function groupModal(id){let g=id?groupById(id):null;if(id&&!g)return;openModal(g?'Edit objective':'Create objective',`<div class="hint">Copy the details from your own FC 27 Ultimate Team Objectives menu. Add individual requirements after saving the group.<\/div><form id="group-form" data-id="${g?esc(g.id):''}"><div class="form-grid">${field('Objective / group name *','title','text',g?.title||'','required maxlength="140"')}${select('Category','category',CATS,g?.category||'Weekly')}${select('Default game mode','mode',MODES,g?.mode||'Any')}${field('Expires on (optional)','expires','datetime-local',g?.expires||'')}${field('Reward description','reward','text',g?.reward||'','maxlength="150"')}${field('Season points earned (SP)','sp','number',g?.sp??0,'min="0" max="100000000"') }<div class="field full"><label for="m-notes">Notes<\/label><textarea class="control" id="m-notes" name="notes" maxlength="2000">${esc(g?.notes||'')}<\/textarea><\/div><\/div><div class="separator"><\/div><div class="settings-actions"><button class="btn btn-primary" type="submit">${g?'Save changes':'Create objective'}<\/button><button class="btn btn-ghost" type="button" data-action="close-modal">Cancel<\/button>${g?`<button class="btn btn-danger" type="button" data-action="delete-group" data-id="${esc(g.id)}">Delete objective<\/button>`:''}<\/div><\/form>`) }
+function taskModal(groupId,id){let g=groupById(groupId);if(!g)return;let t=id?g.tasks.find(x=>x.id===id):null;openModal(t?'Edit requirement':'Add requirement',`<div class="hint"><strong>${esc(g.title)}<\/strong> · For goals/assists, count only the ones that meet the exact in-game criteria. Use Custom for requirements not supported by the match logger.<\/div><form id="task-form" data-group="${esc(groupId)}" data-id="${t?esc(t.id):''}"><div class="form-grid"><div class="field full">${field('Requirement description *','description','text',t?.description||'','required maxlength="180"')}<\/div>${select('Progress metric','metric',METRICS,t?.metric||'matches')}${field('Target quantity *','target','number',t?.target||1,'required min="1" max="1000000"')}${select('Game mode','mode',MODES,t?.mode||g.mode)}${field('Squad/player condition (optional)','rule','text',t?.rule||'','maxlength="180"')}${t?field('Manually entered progress','manual','number',t.manual,'min="0" max="1000000"'):''}<\/div><div class="separator"><\/div><div class="settings-actions"><button class="btn btn-primary" type="submit">${t?'Save requirement':'Add requirement'}<\/button><button class="btn btn-ghost" type="button" data-action="close-modal">Cancel<\/button>${t?`<button class="btn btn-danger" type="button" data-action="delete-task" data-group="${esc(g.id)}" data-id="${esc(t.id)}">Delete<\/button>`:''}<\/div><\/form>`) }
+function eligibleTasks(form){let mode=form.elements.mode.value,won=form.elements.won.checked,goals=Number(form.elements.goals.value)||0,assists=Number(form.elements.assists.value)||0;return allTasks().filter(({g,t})=>{if(isDone(g)||isExpired(g)||value(t)>=t.target||t.metric==='custom')return false;let m=t.mode==='Any'?g.mode:t.mode;if(m!=='Any'&&m!==mode)return false;return t.metric==='matches'||t.metric==='wins'&&won||t.metric==='goals'&&goals>0||t.metric==='assists'&&assists>0})}
+function matchAmount(t,f){let n=t.metric==='matches'?1:t.metric==='wins'?(f.elements.won.checked?1:0):t.metric==='goals'?Number(f.elements.goals.value):t.metric==='assists'?Number(f.elements.assists.value):0;return cap(n,0,t.target-value(t))}
+function updateMatchEligible(){let form=document.getElementById('match-form');if(!form)return;let available=eligibleTasks(form);let ids=new Set(available.map(({t})=>t.id));matchSelected=new Set([...matchSelected].filter(x=>ids.has(x)));let target=document.getElementById('match-eligible');target.innerHTML=available.length?available.map(({g,t})=>`<label class="match-check"><input type="checkbox" data-match-task="${esc(t.id)}" ${matchSelected.has(t.id)?'checked':''}/><span><strong>${esc(t.description)} <span class="text-success">+${matchAmount(t,form)}<\/span><\/strong>${esc(g.title)} · ${value(t)}/${t.target}${t.rule?` · <span class="text-gold">Confirm: ${esc(t.rule)}<\/span>`:''}<\/span><\/label>`).join(''):'<p class="muted">No eligible unfinished objectives for these match stats/mode. You can still log this match without updating tasks.<\/p>';document.getElementById('match-selected').textContent=`${matchSelected.size} requirements selected`}
+function matchModal(){matchSelected=new Set();openModal('Log a match',`<form id="match-form"><div class="hint">Enter the match stats, then tick only requirements that actually counted in-game. Check squad/player restrictions individually before you tick them.<\/div><div class="form-grid">${field('Match date','date','datetime-local',nowInput(),'required')}${select('Game mode', 'mode',MODES.filter(x=>x!=='Any'),'Rivals')}${field('Goals counted','goals','number',0,'min="0" max="99" required')}${field('Assists counted','assists','number',0,'min="0" max="99" required')}<div class="field full"><label><input type="checkbox" name="won" style="accent-color:var(--accent)"/> I won this match<\/label><\/div><div class="field full"><label for="m-notes">Optional notes<\/label><textarea name="notes" class="control" maxlength="1000" placeholder="Example: 2 assists with a specific winger"><\/textarea><\/div><\/div><div class="separator"><\/div><div class="split-heading"><h3 style="font-size:14px;margin:0">Select requirements to update<\/h3><span class="small-note" id="match-selected">0 selected<\/span><\/div><div id="match-eligible"><\/div><div class="separator"><\/div><div class="settings-actions"><button class="btn btn-primary" type="submit">Save match & progress<\/button><button class="btn btn-ghost" type="button" data-action="close-modal">Cancel<\/button><\/div><\/form>`, '',true);updateMatchEligible()}
+function incrementTask(id,dir){let found=taskById(id);if(!found)return;let {t}=found;if(dir>0){if(value(t)>=t.target)return;t.manual=Math.min(t.manual+1,t.target)}else{if(t.manual<=0){toast('That progress came from match logs; undo its match to reverse it.',true);return}t.manual=Math.max(0,t.manual-1)}save();render()}
+function downloadBackup(){let blob=new Blob([JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='fc27-objective-hub-backup-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);toast('Backup exported')}
+const fileImport=document.getElementById('import-file');fileImport.addEventListener('change',async()=>{let file=fileImport.files?.[0];fileImport.value='';if(!file)return;try{if(file.size>5_000_000)throw Error('Backup is too large.');let d=JSON.parse(await file.text());if(d.schema!==1||!Array.isArray(d.groups)||!Array.isArray(d.logs))throw Error('This is not a valid FC27 Hub backup.');if(!confirm('Replace all current objectives, match logs, and settings with this backup? Export current data first if needed.'))return;state=cleanState(d);save();expandedGroups.clear();navigate('home');toast('Backup imported successfully')}catch(e){toast(e.message||'Could not import backup',true)}});
+function actionClick(action,b){const id=b.dataset.id;switch(action){case'new-group':groupModal();break;case'edit-group':groupModal(id);break;case'view-group':expandedGroups.has(id)?expandedGroups.delete(id):expandedGroups.add(id);navigate('objectives');break;case'add-task':taskModal(id);break;case'edit-task':taskModal(b.dataset.group,id);break;case'increment-task':incrementTask(id,1);break;case'decrement-task':incrementTask(id,-1);break;case'open-match':matchModal();break;case'close-modal':closeModal();break;case'hide-demo-banner':state.settings.demoBanner=false;save();render();break;case'toggle-claim':{let g=groupById(id);if(g&&isDone(g)){g.claimed=!g.claimed;save();render();toast(g.claimed?'Reward marked claimed':'Reward marked unclaimed')}break}case'delete-group':{let g=groupById(id);if(g&&confirm(`Delete "${g.title}" and all its requirements? Match history will remain.`)){if(g.sourceKey){ignored.add(g.sourceKey);try{localStorage.setItem(IGNORED_KEY,JSON.stringify([...ignored]))}catch(_){}}state.groups=state.groups.filter(x=>x.id!==id);save();closeModal();render();toast('Objective deleted')}break}case'delete-task':{let x=taskById(id);if(x&&confirm('Delete this requirement? Its recorded progress will no longer count toward an objective.')){x.g.tasks=x.g.tasks.filter(t=>t.id!==id);save();closeModal();render();toast('Requirement deleted')}break}case'delete-match':{let l=state.logs.find(x=>x.id===id);if(l&&confirm('Undo this match? All progress it contributed to current requirements will be reversed.')){state.logs=state.logs.filter(x=>x.id!==id);save();render();toast('Match undone; linked progress reversed')}break}case'sync-catalog':loadCatalog(true);break;case'import-catalog':importCatalog();break;case'import-one':importCatalog(id);break;case'export':downloadBackup();break;case'import':fileImport.click();break;case'clear-demo':{let count=state.groups.filter(g=>g.source==='demo').length;if(!count){toast('No demo objectives to remove');return}if(confirm(`Remove ${count} example objectives?`)){state.groups=state.groups.filter(g=>g.source!=='demo');state.settings.demoBanner=false;save();render();toast('Demo objectives removed')}break}case'reset-all':if(confirm('This permanently clears ALL objectives, rewards, match logs, and settings on this browser. Download a backup first. Continue?')){state=fresh(false);ignored.clear();try{localStorage.removeItem(IGNORED_KEY)}catch(_){}save();navigate('home');toast('Tracker reset')}break;}}
+document.addEventListener('click',e=>{if(e.target.matches('[data-overlay]')){closeModal();return}let nav=e.target.closest('[data-nav]');if(nav){navigate(nav.dataset.nav);return}let act=e.target.closest('[data-action]');if(act){actionClick(act.dataset.action,act);return}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modalRoot.childElementCount)closeModal()});
+document.addEventListener('input',e=>{if(e.target.id==='objective-search'){filterQuery=e.target.value;let cur=e.target.selectionStart;let list=document.getElementById('objective-results');let html=objectives();let d=document.createElement('div');d.innerHTML=html;list.innerHTML=d.querySelector('#objective-results').innerHTML; e.target.setSelectionRange(cur,cur)}if(e.target.closest('#match-form')&&['goals','assists'].includes(e.target.name))updateMatchEligible()});
+document.addEventListener('change',e=>{if(e.target.id==='category-filter'){filterCat=e.target.value;render()}if(e.target.id==='status-filter'){filterStatus=e.target.value;render()}if(e.target.matches('#match-form [name="mode"],#match-form [name="won"]'))updateMatchEligible();if(e.target.matches('[data-match-task]')){let id=e.target.dataset.matchTask;if(e.target.checked)matchSelected.add(id);else matchSelected.delete(id);let label=document.getElementById('match-selected');if(label)label.textContent=`${matchSelected.size} requirements selected`}});
+document.addEventListener('submit',e=>{e.preventDefault();const f=e.target;const data=new FormData(f);if(f.id==='goal-form'){state.settings.seasonGoal=cap(Number(data.get('goal'))||10000,1,100000000);save();render();toast('Season goal updated');return}if(f.id==='group-form'){let title=String(data.get('title')||'').trim();if(!title)return toast('Give this objective a title',true);let id=f.dataset.id,g=groupById(id);let changes={title,category:data.get('category'),mode:data.get('mode'),expires:String(data.get('expires')||''),reward:String(data.get('reward')||'').trim(),sp:cap(Number(data.get('sp'))||0,0,100000000),notes:String(data.get('notes')||'').trim()};if(g)Object.assign(g,changes);else{g={id:getId(),...changes,claimed:false,source:'manual',created:new Date().toISOString(),tasks:[]};state.groups.unshift(g);expandedGroups.add(g.id)}save();closeModal();navigate('objectives');if(!id)taskModal(g.id);toast(id?'Objective updated':'Objective created. Add its first requirement.');return}if(f.id==='task-form'){let g=groupById(f.dataset.group);if(!g)return;let description=String(data.get('description')||'').trim(),target=Number(data.get('target'));if(!description||!Number.isInteger(target)||target<1||target>1000000)return toast('Enter a description and valid target',true);let t=f.dataset.id?g.tasks.find(x=>x.id===f.dataset.id):null;let changes={description,metric:String(data.get('metric')),target,mode:String(data.get('mode')),rule:String(data.get('rule')||'').trim()};if(t){Object.assign(t,changes);t.manual=cap(Number(data.get('manual'))||0,0,target)}else g.tasks.push({id:getId(),...changes,manual:0});if(!g.sourceKey)g.source='manual';g.claimed=false;save();closeModal();expandedGroups.add(g.id);navigate('objectives');toast(t?'Requirement updated':'Requirement added');return}if(f.id==='match-form'){let goals=Number(data.get('goals')),assists=Number(data.get('assists'));if(![goals,assists].every(x=>Number.isInteger(x)&&x>=0&&x<=99))return toast('Goals and assists must be between 0 and 99',true);let eligible=eligibleTasks(f),ids=new Set(eligible.map(x=>x.t.id)),advances=eligible.filter(({t})=>matchSelected.has(t.id)&&ids.has(t.id)).map(({t})=>({taskId:t.id,delta:matchAmount(t,f)})).filter(x=>x.delta>0);let date=String(data.get('date')||nowInput());if(isNaN(new Date(date)))return toast('Choose a valid match date',true);state.logs.unshift({id:getId(),date,mode:String(data.get('mode')),won:!!data.get('won'),goals,assists,notes:String(data.get('notes')||'').trim(),advances});save();closeModal();navigate('matches');toast(`Match saved · ${advances.length} requirements updated`);return}});
+try{const cache=JSON.parse(localStorage.getItem(CATALOG_KEY)||'null');if(cache?.groups&&Array.isArray(cache.groups)){catalog=cache.groups;catalogMeta=cache;}}catch(_){}
+render();
+if(location.protocol.startsWith('http'))setTimeout(()=>loadCatalog(false),600);else setTimeout(()=>loadSnapshot(),200);
+if('serviceWorker' in navigator && window.location.protocol.startsWith('http')){window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(()=>{}))}
+})();
+</script>
+</body>
+</html>
