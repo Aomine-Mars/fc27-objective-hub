@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "source": "FCData public objective pages",
+  "sourceUrl": "https://fcdata.io/objectives",
+  "updatedAt": "2026-10-27T16:00:00Z",
+  "live": false,
+  "totalFound": 4,
+  "detailCount": 4,
+  "skipped": 0,
+  "groups": [
+    {
+      "sourceKey": "fcdata:168",
+      "sourceUrl": "https://fcdata.io/objectives/168-daily-objectives/",
+      "title": "Daily Objectives",
+      "category": "Daily",
+      "expires": "2026-10-29T17:59",
+      "reward": "10 SP",
+      "sp": 10,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "Play 1",
+          "metric": "matches",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in any FUT game mode."
+        },
+        {
+          "description": "Scoring Success",
+          "metric": "goals",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Score 2 goals in any FUT game mode."
+        }
+      ]
+    },
+    {
+      "sourceKey": "fcdata:163",
+      "sourceUrl": "https://fcdata.io/objectives/163-feral-strength-flash-rush/",
+      "title": "Feral Strength Flash Rush",
+      "category": "Campaign",
+      "expires": "2026-10-27T17:59",
+      "reward": "100 Ultimate Scream Tokens · 50 SP",
+      "sp": 50,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "Winning Flex",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Rush",
+          "rule": "Win 3 matches in Feral Strength Flash Rush."
+        },
+        {
+          "description": "Show Your Strength",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Score at least 2 goals with a defender in the event."
+        },
+        {
+          "description": "Powerful Ally",
+          "metric": "assists",
+          "target": 3,
+          "mode": "Rush",
+          "rule": "Assist 3 goals in the event."
+        }
+      ]
+    },
+    {
+      "sourceKey": "fcdata:158",
+      "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
+      "title": "FC Heritage Circuit Tournament",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "85 Alexis Sánchez",
+      "sp": 0,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "Heritage Champion",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Live Events",
+          "rule": "Win tournament 3 times; verify match/event rules."
+        },
+        {
+          "description": "Thunder Final",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Win tournament with at least 2 Premier League players in starting 11."
+        },
+        {
+          "description": "Ligue 1 Finest",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Live Events",
+          "rule": "Win 2 matches with 2 Ligue 1 players in starting 11."
+        },
+        {
+          "description": "Oranje Legacy",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Live Events",
+          "rule": "Assist in 3 separate matches with 1 Dutch player in starting 11."
+        },
+        {
+          "description": "Madrid Royalty",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Live Events",
+          "rule": "Score in 3 separate matches with Real Madrid player in starting 11."
+        },
+        {
+          "description": "French Thrill",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Score 2 goals in 1 match with at least 1 French player in starting 11."
+        },
+        {
+          "description": "Serie A after Dark",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Win Quarter-Finals with 2 Serie A players in starting 11."
+        }
+      ]
+    },
+    {
+      "sourceKey": "fcdata:164",
+      "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
+      "title": "FC Heritage Circuit Completionist",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "84 Jeremiah St. Juste",
+      "sp": 0,
+      "notes": "Verified public listing snapshot, 27 Oct 2026. Confirm expiry timezone and task rules in-game.",
+      "tasks": [
+        {
+          "description": "FC Heritage Circuit World Class Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the World Class Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Professional Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Professional Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Semi-Pro Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Semi-Pro Event objective."
+        }
+      ]
+    }
+  ]
+}
