@@ -2,9 +2,12 @@ name: Publish FC27 Objective Hub
 on:
   push:
     branches: [main]
+    paths-ignore: ['catalog.json']
   workflow_dispatch:
+  schedule:
+    - cron: '17 */4 * * *'
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -18,6 +21,32 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install catalogue parser
+        run: python -m pip install "beautifulsoup4>=4.12,<5"
+      - name: Refresh public objective catalogue
+        id: refresh
+        continue-on-error: true
+        run: python refresh_catalog.py
+      - name: Report refresh status
+        run: |
+          if [ "${{ steps.refresh.outcome }}" = "failure" ]; then
+            echo '⚠️ Source refresh failed. Keeping previously dated catalog.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo '✅ Source catalog checked. Check counts and incomplete tasks on the tracker.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Commit verified catalog updates
+        if: steps.refresh.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public FC27 objective catalog"
+            git push
+          fi
       - name: Prepare public files
         run: |
           mkdir -p _site
