@@ -45,7 +45,8 @@ jobs:
           git add catalog.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh public FC27 objective catalog"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - name: Prepare public files
         run: |
