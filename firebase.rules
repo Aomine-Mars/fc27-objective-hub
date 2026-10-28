@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /fc27_progress/{userId} {
+      function isOwner() {
+        return request.auth != null && request.auth.uid == userId;
+      }
+      function validPayload() {
+        return request.resource.data.keys().hasOnly(['owner','revision','payload','updatedAt'])
+          && request.resource.data.owner == userId
+          && request.resource.data.revision is int
+          && request.resource.data.payload is map
+          && request.resource.data.payload.keys().hasOnly(['state','ignored'])
+          && request.resource.data.payload.state is map
+          && request.resource.data.payload.ignored is list;
+      }
+      allow read: if isOwner();
+      allow create: if isOwner() && validPayload()
+        && request.resource.data.revision == 1;
+      allow update: if isOwner() && validPayload()
+        && resource.data.owner == userId
+        && request.resource.data.revision == resource.data.revision + 1;
+      allow delete: if false;
+    }
+  }
+}
