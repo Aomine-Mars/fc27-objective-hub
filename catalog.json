@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-10-28T21:13:42.008158+00:00",
+  "updatedAt": "2026-10-29T05:52:54.265857+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 44,
@@ -191,55 +191,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:159",
-      "sourceUrl": "https://fcdata.io/objectives/159-ultimate-scream-gallery/",
-      "title": "Ultimate Scream Gallery",
-      "category": "Campaign",
-      "expires": "2026-11-20T17:59",
-      "reward": "Adidas Cnxt25 Pro Ball",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "S Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve S Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "A Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve A Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "B Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve B Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "C Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve C Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "D Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve D Rank in the Ultimate Scream Gallery Set."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:162",
       "sourceUrl": "https://fcdata.io/objectives/162-phantom-playgrounds/",
       "title": "Phantom Playgrounds",
@@ -303,146 +254,48 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:168",
-      "sourceUrl": "https://fcdata.io/objectives/168-daily-objectives/",
-      "title": "Daily Objectives",
-      "category": "Daily",
-      "expires": "2026-10-29T17:59",
-      "reward": "10",
-      "countHint": 2,
-      "tasks": [
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in any FUT game mode."
-        },
-        {
-          "description": "Scoring Success",
-          "metric": "goals",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Score 2 goals in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:161",
-      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
-      "title": "FC Heritage Circuit World Class Event",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "2x 82+ Gold Players Pack",
+      "sourceKey": "fcdata:159",
+      "sourceUrl": "https://fcdata.io/objectives/159-ultimate-scream-gallery/",
+      "title": "Ultimate Scream Gallery",
+      "category": "Campaign",
+      "expires": "2026-11-20T17:59",
+      "reward": "Adidas Cnxt25 Pro Ball",
       "countHint": 5,
       "tasks": [
         {
-          "description": "Bundesliga Backbone",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bavarian Thunder",
-          "metric": "goals",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Paris Power Surge",
+          "description": "S Rank",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+          "rule": "Achieve S Rank in the Ultimate Scream Gallery Set."
         },
         {
-          "description": "Bernabéu Thunder",
+          "description": "A Rank",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+          "rule": "Achieve A Rank in the Ultimate Scream Gallery Set."
         },
         {
-          "description": "Win 1",
+          "description": "B Rank",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:154",
-      "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
-      "title": "Season 2 Daily Knockout Tournament",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "85 Olga Carmona",
-      "countHint": 8,
-      "tasks": [
+          "rule": "Achieve B Rank in the Ultimate Scream Gallery Set."
+        },
         {
-          "description": "Win Tournament Five Times",
+          "description": "C Rank",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Win the Season 2 Daily Knockout Tournament five times."
+          "rule": "Achieve C Rank in the Ultimate Scream Gallery Set."
         },
         {
-          "description": "Score in 50",
+          "description": "D Rank",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Win Tournament",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score in 12",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score 15",
-          "metric": "goals",
-          "target": 15,
-          "mode": "Any",
-          "rule": "Score 15 goals in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 20",
-          "metric": "matches",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Play 20 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 10",
-          "metric": "matches",
-          "target": 10,
-          "mode": "Any",
-          "rule": "Play 10 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
+          "rule": "Achieve D Rank in the Ultimate Scream Gallery Set."
         }
       ],
       "detailStatus": "complete",
@@ -485,55 +338,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Score 1 goal in the FC Heritage Circuit Kick Off Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:157",
-      "sourceUrl": "https://fcdata.io/objectives/157-fc-heritage-circuit-professional-event/",
-      "title": "FC Heritage Circuit Professional Event",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "2x 81+ Gold Players Pack",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Premier Pride",
-          "metric": "wins",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "French Connection",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "Belgian Tower",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "Three Lions Legacy",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event."
         }
       ],
       "detailStatus": "complete",
@@ -597,27 +401,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:166",
-      "sourceUrl": "https://fcdata.io/objectives/166-season-2-daily-knockout-tournament-weekly-play/",
-      "title": "Season 2 Daily Knockout Tournament Weekly Play",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "Consumable",
-      "countHint": 1,
-      "tasks": [
-        {
-          "description": "Score in 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament."
         }
       ],
       "detailStatus": "complete",
@@ -723,6 +506,76 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:157",
+      "sourceUrl": "https://fcdata.io/objectives/157-fc-heritage-circuit-professional-event/",
+      "title": "FC Heritage Circuit Professional Event",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "2x 81+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Premier Pride",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "French Connection",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Belgian Tower",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Three Lions Legacy",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:166",
+      "sourceUrl": "https://fcdata.io/objectives/166-season-2-daily-knockout-tournament-weekly-play/",
+      "title": "Season 2 Daily Knockout Tournament Weekly Play",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "Consumable",
+      "countHint": 1,
+      "tasks": [
+        {
+          "description": "Score in 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:167",
       "sourceUrl": "https://fcdata.io/objectives/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
       "title": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
@@ -772,6 +625,55 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:161",
+      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
+      "title": "FC Heritage Circuit World Class Event",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "2x 82+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Bundesliga Backbone",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bavarian Thunder",
+          "metric": "goals",
+          "target": 5,
+          "mode": "Any",
+          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Paris Power Surge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bernabéu Thunder",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:164",
       "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
       "title": "FC Heritage Circuit Completionist",
@@ -800,6 +702,104 @@
           "target": 1,
           "mode": "Any",
           "rule": "Complete the FC Heritage Circuit Semi-Pro Event objective."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:154",
+      "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
+      "title": "Season 2 Daily Knockout Tournament",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "85 Olga Carmona",
+      "countHint": 8,
+      "tasks": [
+        {
+          "description": "Win Tournament Five Times",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the Season 2 Daily Knockout Tournament five times."
+        },
+        {
+          "description": "Score in 50",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Win Tournament",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Score in 12",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Score 15",
+          "metric": "goals",
+          "target": 15,
+          "mode": "Any",
+          "rule": "Score 15 goals in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 20",
+          "metric": "matches",
+          "target": 20,
+          "mode": "Any",
+          "rule": "Play 20 matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 10",
+          "metric": "matches",
+          "target": 10,
+          "mode": "Any",
+          "rule": "Play 10 matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:168",
+      "sourceUrl": "https://fcdata.io/objectives/168-daily-objectives/",
+      "title": "Daily Objectives",
+      "category": "Daily",
+      "expires": "2026-10-29T17:59",
+      "reward": "10",
+      "countHint": 2,
+      "tasks": [
+        {
+          "description": "Play 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in any FUT game mode."
+        },
+        {
+          "description": "Scoring Success",
+          "metric": "goals",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Score 2 goals in any FUT game mode."
         }
       ],
       "detailStatus": "complete",
@@ -1017,48 +1017,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:81",
-      "sourceUrl": "https://fcdata.io/objectives/81-gallery-milestone/",
-      "title": "Gallery Milestone",
-      "category": "Milestones",
+      "sourceKey": "fcdata:57",
+      "sourceUrl": "https://fcdata.io/objectives/57-live-events-mastery/",
+      "title": "Live Events Mastery",
+      "category": "Mastery",
       "expires": "2031-10-01T16:59",
-      "reward": "Gallery Excellence",
-      "countHint": 5,
+      "reward": "Giant Gold Pack",
+      "countHint": 3,
       "tasks": [
         {
-          "description": "Level 25",
+          "description": "Win 100",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Reach Gallery Level 25."
+          "mode": "Live Events",
+          "rule": "Win 100 Live Events matches."
         },
         {
-          "description": "Level 20",
+          "description": "Win 50",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Reach Gallery Level 20."
+          "mode": "Live Events",
+          "rule": "Win 50 Live Events matches."
         },
         {
-          "description": "Level 15",
+          "description": "Win 25",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Reach Gallery Level 15."
-        },
-        {
-          "description": "Level 10",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Reach Gallery Level 10."
-        },
-        {
-          "description": "Level 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Reach Gallery Level 5."
+          "mode": "Live Events",
+          "rule": "Win 25 Live Events matches."
         }
       ],
       "detailStatus": "complete",
@@ -1500,6 +1486,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:28",
+      "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
+      "title": "Total Football",
+      "category": "Foundations",
+      "expires": "2031-10-01T16:59",
+      "reward": "Gold Players Pack · 82 Charalampos Kostoulas",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Complete 'Rising Through the Ranks'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'Rising Through the Ranks' Objectives Group."
+        },
+        {
+          "description": "Complete 'First Team Dreams'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'First Team Dreams' Objectives Group."
+        },
+        {
+          "description": "Complete 'The Journey Begins'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'The Journey Begins' Objectives Group."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:27",
       "sourceUrl": "https://fcdata.io/objectives/27-rising-through-the-ranks/",
       "title": "Rising Through the Ranks",
@@ -1619,41 +1640,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:28",
-      "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
-      "title": "Total Football",
-      "category": "Foundations",
-      "expires": "2031-10-01T16:59",
-      "reward": "Gold Players Pack · 82 Charalampos Kostoulas",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Complete 'Rising Through the Ranks'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'Rising Through the Ranks' Objectives Group."
-        },
-        {
-          "description": "Complete 'First Team Dreams'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'First Team Dreams' Objectives Group."
-        },
-        {
-          "description": "Complete 'The Journey Begins'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'The Journey Begins' Objectives Group."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:51",
       "sourceUrl": "https://fcdata.io/objectives/51-moments-stars-milestone/",
       "title": "Moments Stars Milestone",
@@ -1766,34 +1752,48 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:57",
-      "sourceUrl": "https://fcdata.io/objectives/57-live-events-mastery/",
-      "title": "Live Events Mastery",
-      "category": "Mastery",
+      "sourceKey": "fcdata:81",
+      "sourceUrl": "https://fcdata.io/objectives/81-gallery-milestone/",
+      "title": "Gallery Milestone",
+      "category": "Milestones",
       "expires": "2031-10-01T16:59",
-      "reward": "Giant Gold Pack",
-      "countHint": 3,
+      "reward": "Gallery Excellence",
+      "countHint": 5,
       "tasks": [
         {
-          "description": "Win 100",
+          "description": "Level 25",
           "metric": "custom",
           "target": 1,
-          "mode": "Live Events",
-          "rule": "Win 100 Live Events matches."
+          "mode": "Any",
+          "rule": "Reach Gallery Level 25."
         },
         {
-          "description": "Win 50",
+          "description": "Level 20",
           "metric": "custom",
           "target": 1,
-          "mode": "Live Events",
-          "rule": "Win 50 Live Events matches."
+          "mode": "Any",
+          "rule": "Reach Gallery Level 20."
         },
         {
-          "description": "Win 25",
+          "description": "Level 15",
           "metric": "custom",
           "target": 1,
-          "mode": "Live Events",
-          "rule": "Win 25 Live Events matches."
+          "mode": "Any",
+          "rule": "Reach Gallery Level 15."
+        },
+        {
+          "description": "Level 10",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Reach Gallery Level 10."
+        },
+        {
+          "description": "Level 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Reach Gallery Level 5."
         }
       ],
       "detailStatus": "complete",
