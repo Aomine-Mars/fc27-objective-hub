@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-01T06:13:16.447681+00:00",
+  "updatedAt": "2026-11-01T15:14:22.969989+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 48,
@@ -1549,48 +1549,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:25",
-      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
-      "title": "The Journey Begins",
-      "category": "Foundations",
-      "expires": "2031-10-01T16:59",
-      "reward": "3x Premier League Gold Players Pack · Anchor",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "A Test of Skill",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
-        },
-        {
-          "description": "Finding the Net",
-          "metric": "goals",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Hit the Pitch",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Lace 'em Up",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:28",
       "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
       "title": "Total Football",
@@ -1654,6 +1612,48 @@
           "target": 1,
           "mode": "Any",
           "rule": "Complete 5 Squad Building Challenge groups."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:25",
+      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
+      "title": "The Journey Begins",
+      "category": "Foundations",
+      "expires": "2031-10-01T16:59",
+      "reward": "3x Premier League Gold Players Pack · Anchor",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "A Test of Skill",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
+        },
+        {
+          "description": "Finding the Net",
+          "metric": "goals",
+          "target": 20,
+          "mode": "Any",
+          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
+        },
+        {
+          "description": "Hit the Pitch",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
+        },
+        {
+          "description": "Lace 'em Up",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
         }
       ],
       "detailStatus": "complete",
