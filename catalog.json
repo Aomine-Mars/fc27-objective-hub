@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-03T11:58:45.363246+00:00",
+  "updatedAt": "2026-11-03T19:31:11.268085+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 50,
@@ -15,6 +15,55 @@
     "Scheduled snapshot; manual progress only."
   ],
   "groups": [
+    {
+      "sourceKey": "fcdata:150",
+      "sourceUrl": "https://fcdata.io/objectives/150-weekly-rush-points/",
+      "title": "Weekly Rush Points",
+      "category": "Weekly",
+      "expires": "2026-11-10T17:59",
+      "reward": "2x 84+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "35,000 Rush Points",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Earn 35,000 points by completing bonuses in Rush."
+        },
+        {
+          "description": "25,000 Rush Points",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Earn 25,000 points by completing bonuses in Rush."
+        },
+        {
+          "description": "20,000 Rush Points",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Earn 20,000 points by completing bonuses in Rush."
+        },
+        {
+          "description": "10,000 Rush Points",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Earn 10,000 points by completing bonuses in Rush."
+        },
+        {
+          "description": "2,500 Rush Points",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rush",
+          "rule": "Earn 2,500 points by completing bonuses in Rush."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
     {
       "sourceKey": "fcdata:182",
       "sourceUrl": "https://fcdata.io/objectives/182-movember/",
@@ -51,41 +100,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:178",
-      "sourceUrl": "https://fcdata.io/objectives/178-liga-bbva-mx-el-dia-de-muertos/",
-      "title": "Liga BBVA MX - El Día De Muertos",
-      "category": "Campaign",
-      "expires": "2026-11-08T17:59",
-      "reward": "Liga Bbva Mx - Día De Muertos",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Los Campeones",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches while having min. 1 player from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
-        },
-        {
-          "description": "El Tri",
-          "metric": "matches",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Play 5 matches while having min. 3 Mexican players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
-        },
-        {
-          "description": "El Matón del área",
-          "metric": "goals",
-          "target": 4,
-          "mode": "Any",
-          "rule": "Score 4 goals while having min. 2 players from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:189",
       "sourceUrl": "https://fcdata.io/objectives/189-silver-bullets-flash-rush/",
       "title": "Silver Bullets Flash Rush",
@@ -114,6 +128,41 @@
           "target": 1,
           "mode": "Rush",
           "rule": "Assist 3 goals in the Silver Bullets Flash Rush Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:178",
+      "sourceUrl": "https://fcdata.io/objectives/178-liga-bbva-mx-el-dia-de-muertos/",
+      "title": "Liga BBVA MX - El Día De Muertos",
+      "category": "Campaign",
+      "expires": "2026-11-08T17:59",
+      "reward": "Liga Bbva Mx - Día De Muertos",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Los Campeones",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches while having min. 1 player from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
+        },
+        {
+          "description": "El Tri",
+          "metric": "matches",
+          "target": 5,
+          "mode": "Any",
+          "rule": "Play 5 matches while having min. 3 Mexican players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
+        },
+        {
+          "description": "El Matón del área",
+          "metric": "goals",
+          "target": 4,
+          "mode": "Any",
+          "rule": "Score 4 goals while having min. 2 players from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
         }
       ],
       "detailStatus": "complete",
@@ -163,6 +212,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:176",
+      "sourceUrl": "https://fcdata.io/objectives/176-liga-bbva-mx-is-back/",
+      "title": "Liga BBVA MX is back",
+      "category": "Campaign",
+      "expires": "2026-11-06T17:59",
+      "reward": "âLiga BBVA MX is Back' Pack",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Play 3",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Play 3 matches with the Mexico National team Away kit equipped in any FUT game mode."
+        },
+        {
+          "description": "Clean Sheet",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Keep a clean sheet with the Mexico National team Away kit equipped in any FUT game mode."
+        },
+        {
+          "description": "Play 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match with 3 Mexican players in your starting XI in any FUT game mode."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:175",
       "sourceUrl": "https://fcdata.io/objectives/175-ghoul-fest/",
       "title": "Ghoul Fest",
@@ -205,41 +289,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Score at least 2 goals in one match in the Ghoul Fest Live Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:176",
-      "sourceUrl": "https://fcdata.io/objectives/176-liga-bbva-mx-is-back/",
-      "title": "Liga BBVA MX is back",
-      "category": "Campaign",
-      "expires": "2026-11-06T17:59",
-      "reward": "âLiga BBVA MX is Back' Pack",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Play 3",
-          "metric": "matches",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Play 3 matches with the Mexico National team Away kit equipped in any FUT game mode."
-        },
-        {
-          "description": "Clean Sheet",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Keep a clean sheet with the Mexico National team Away kit equipped in any FUT game mode."
-        },
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match with 3 Mexican players in your starting XI in any FUT game mode."
         }
       ],
       "detailStatus": "complete",
@@ -387,55 +436,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:149",
-      "sourceUrl": "https://fcdata.io/objectives/149-weekly-rush-points/",
-      "title": "Weekly Rush Points",
-      "category": "Weekly",
-      "expires": "2026-11-03T17:59",
-      "reward": "2x 84+ Gold Players Pack",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "35,000 Rush Points",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Earn 35,000 points by completing bonuses in Rush."
-        },
-        {
-          "description": "25,000 Rush Points",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Earn 25,000 points by completing bonuses in Rush."
-        },
-        {
-          "description": "20,000 Rush Points",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Earn 20,000 points by completing bonuses in Rush."
-        },
-        {
-          "description": "10,000 Rush Points",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Earn 10,000 points by completing bonuses in Rush."
-        },
-        {
-          "description": "2,500 Rush Points",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Earn 2,500 points by completing bonuses in Rush."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:165",
       "sourceUrl": "https://fcdata.io/objectives/165-season-2-daily-knockout-tournament-bonus/",
       "title": "Season 2 Daily Knockout Tournament Bonus",
@@ -471,55 +471,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Score 1 goal in the Season 2 Daily Knockout Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:159",
-      "sourceUrl": "https://fcdata.io/objectives/159-ultimate-scream-gallery/",
-      "title": "Ultimate Scream Gallery",
-      "category": "Campaign",
-      "expires": "2026-11-20T17:59",
-      "reward": "Adidas Cnxt25 Pro Ball",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "S Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve S Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "A Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve A Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "B Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve B Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "C Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve C Rank in the Ultimate Scream Gallery Set."
-        },
-        {
-          "description": "D Rank",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Achieve D Rank in the Ultimate Scream Gallery Set."
         }
       ],
       "detailStatus": "complete",
@@ -590,6 +541,55 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:159",
+      "sourceUrl": "https://fcdata.io/objectives/159-ultimate-scream-gallery/",
+      "title": "Ultimate Scream Gallery",
+      "category": "Campaign",
+      "expires": "2026-11-20T17:59",
+      "reward": "Adidas Cnxt25 Pro Ball",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "S Rank",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Achieve S Rank in the Ultimate Scream Gallery Set."
+        },
+        {
+          "description": "A Rank",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Achieve A Rank in the Ultimate Scream Gallery Set."
+        },
+        {
+          "description": "B Rank",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Achieve B Rank in the Ultimate Scream Gallery Set."
+        },
+        {
+          "description": "C Rank",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Achieve C Rank in the Ultimate Scream Gallery Set."
+        },
+        {
+          "description": "D Rank",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Achieve D Rank in the Ultimate Scream Gallery Set."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:156",
       "sourceUrl": "https://fcdata.io/objectives/156-ultimate-scream-puzzle-completionist/",
       "title": "Ultimate Scream Puzzle Completionist",
@@ -646,6 +646,160 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:158",
+      "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
+      "title": "FC Heritage Circuit Tournament",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "85 Alexis Sánchez",
+      "countHint": 7,
+      "tasks": [
+        {
+          "description": "Heritage Champion",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the FC Heritage Circuit Tournament 3 times."
+        },
+        {
+          "description": "Thunder Final",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11."
+        },
+        {
+          "description": "Ligue 1 Finest",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament."
+        },
+        {
+          "description": "Oranje Legacy",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament."
+        },
+        {
+          "description": "Madrid Royalty",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament."
+        },
+        {
+          "description": "French Thrill",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament."
+        },
+        {
+          "description": "Serie A after Dark",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:160",
+      "sourceUrl": "https://fcdata.io/objectives/160-fc-heritage-circuit-kick-off-event/",
+      "title": "FC Heritage Circuit Kick Off Event",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "2x 79+ Gold Players Pack",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit Kick Off Event."
+        },
+        {
+          "description": "Assist in 2",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event."
+        },
+        {
+          "description": "Play 2",
+          "metric": "matches",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Play 2 matches in the FC Heritage Circuit Kick Off Event."
+        },
+        {
+          "description": "Score 1",
+          "metric": "goals",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score 1 goal in the FC Heritage Circuit Kick Off Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:161",
+      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
+      "title": "FC Heritage Circuit World Class Event",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "2x 82+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Bundesliga Backbone",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bavarian Thunder",
+          "metric": "goals",
+          "target": 5,
+          "mode": "Any",
+          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Paris Power Surge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bernabéu Thunder",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:155",
       "sourceUrl": "https://fcdata.io/objectives/155-fc-heritage-circuit-semi-pro-event/",
       "title": "FC Heritage Circuit Semi-Pro Event",
@@ -688,6 +842,125 @@
           "target": 1,
           "mode": "Any",
           "rule": "Win 1 match in the FC Heritage Circuit Semi-Pro Event and qualify for the FC Heritage Circuit Professional Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:157",
+      "sourceUrl": "https://fcdata.io/objectives/157-fc-heritage-circuit-professional-event/",
+      "title": "FC Heritage Circuit Professional Event",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "2x 81+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Premier Pride",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "French Connection",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Belgian Tower",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Three Lions Legacy",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:166",
+      "sourceUrl": "https://fcdata.io/objectives/166-season-2-daily-knockout-tournament-weekly-play/",
+      "title": "Season 2 Daily Knockout Tournament Weekly Play",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "Shadow",
+      "countHint": 1,
+      "tasks": [
+        {
+          "description": "Score in 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:167",
+      "sourceUrl": "https://fcdata.io/objectives/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
+      "title": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "84 Axel Witsel",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "5 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times."
+        },
+        {
+          "description": "4 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times."
+        },
+        {
+          "description": "3 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times."
+        },
+        {
+          "description": "2 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times."
+        },
+        {
+          "description": "1 Completion",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time."
         }
       ],
       "detailStatus": "complete",
@@ -793,279 +1066,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:158",
-      "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
-      "title": "FC Heritage Circuit Tournament",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "85 Alexis Sánchez",
-      "countHint": 7,
-      "tasks": [
-        {
-          "description": "Heritage Champion",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the FC Heritage Circuit Tournament 3 times."
-        },
-        {
-          "description": "Thunder Final",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11."
-        },
-        {
-          "description": "Ligue 1 Finest",
-          "metric": "wins",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "Oranje Legacy",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "Madrid Royalty",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "French Thrill",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "Serie A after Dark",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:167",
-      "sourceUrl": "https://fcdata.io/objectives/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
-      "title": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "84 Axel Witsel",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "5 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times."
-        },
-        {
-          "description": "4 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times."
-        },
-        {
-          "description": "3 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times."
-        },
-        {
-          "description": "2 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times."
-        },
-        {
-          "description": "1 Completion",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:166",
-      "sourceUrl": "https://fcdata.io/objectives/166-season-2-daily-knockout-tournament-weekly-play/",
-      "title": "Season 2 Daily Knockout Tournament Weekly Play",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "Shadow",
-      "countHint": 1,
-      "tasks": [
-        {
-          "description": "Score in 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:157",
-      "sourceUrl": "https://fcdata.io/objectives/157-fc-heritage-circuit-professional-event/",
-      "title": "FC Heritage Circuit Professional Event",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "2x 81+ Gold Players Pack",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Premier Pride",
-          "metric": "wins",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "French Connection",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "Belgian Tower",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "Three Lions Legacy",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event."
-        },
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:161",
-      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
-      "title": "FC Heritage Circuit World Class Event",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "2x 82+ Gold Players Pack",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Bundesliga Backbone",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bavarian Thunder",
-          "metric": "goals",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Paris Power Surge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bernabéu Thunder",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:160",
-      "sourceUrl": "https://fcdata.io/objectives/160-fc-heritage-circuit-kick-off-event/",
-      "title": "FC Heritage Circuit Kick Off Event",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "2x 79+ Gold Players Pack",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit Kick Off Event."
-        },
-        {
-          "description": "Assist in 2",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event."
-        },
-        {
-          "description": "Play 2",
-          "metric": "matches",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Play 2 matches in the FC Heritage Circuit Kick Off Event."
-        },
-        {
-          "description": "Score 1",
-          "metric": "goals",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score 1 goal in the FC Heritage Circuit Kick Off Event."
         }
       ],
       "detailStatus": "complete",
@@ -1192,41 +1192,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Play 1 match in any Football Ultimate Team game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:59",
-      "sourceUrl": "https://fcdata.io/objectives/59-first-owned-mastery/",
-      "title": "First Owned Mastery",
-      "category": "Mastery",
-      "expires": "2031-10-01T16:59",
-      "reward": "Giant Gold Pack · 10,000 Coins",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "First Owned Win 100",
-          "metric": "wins",
-          "target": 100,
-          "mode": "Any",
-          "rule": "Win 100 matches in any FUT game mode with a starting squad of First Owned players."
-        },
-        {
-          "description": "First Owned Win 50",
-          "metric": "wins",
-          "target": 50,
-          "mode": "Any",
-          "rule": "Win 50 matches in any FUT game mode with a starting squad of First Owned players."
-        },
-        {
-          "description": "First Owned Win 25",
-          "metric": "wins",
-          "target": 25,
-          "mode": "Any",
-          "rule": "Win 25 matches in any FUT game mode with a starting squad of First Owned players."
         }
       ],
       "detailStatus": "complete",
@@ -1430,6 +1395,41 @@
           "target": 1,
           "mode": "Rush",
           "rule": "Play 5 Rush matches."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:56",
+      "sourceUrl": "https://fcdata.io/objectives/56-squad-building-mastery/",
+      "title": "Squad Building Mastery",
+      "category": "Mastery",
+      "expires": "2031-10-01T16:59",
+      "reward": "Stadium Trophy · 2x 83+ Gold Players Pack",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "250 SBCs",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 250 Squad Building Challenge groups."
+        },
+        {
+          "description": "100 SBCs",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 100 Squad Building Challenge groups."
+        },
+        {
+          "description": "50 SBCs",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 50 Squad Building Challenge groups."
         }
       ],
       "detailStatus": "complete",
@@ -1948,34 +1948,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:56",
-      "sourceUrl": "https://fcdata.io/objectives/56-squad-building-mastery/",
-      "title": "Squad Building Mastery",
+      "sourceKey": "fcdata:59",
+      "sourceUrl": "https://fcdata.io/objectives/59-first-owned-mastery/",
+      "title": "First Owned Mastery",
       "category": "Mastery",
       "expires": "2031-10-01T16:59",
-      "reward": "Stadium Trophy · 2x 83+ Gold Players Pack",
+      "reward": "Giant Gold Pack · 10,000 Coins",
       "countHint": 3,
       "tasks": [
         {
-          "description": "250 SBCs",
-          "metric": "custom",
-          "target": 1,
+          "description": "First Owned Win 100",
+          "metric": "wins",
+          "target": 100,
           "mode": "Any",
-          "rule": "Complete 250 Squad Building Challenge groups."
+          "rule": "Win 100 matches in any FUT game mode with a starting squad of First Owned players."
         },
         {
-          "description": "100 SBCs",
-          "metric": "custom",
-          "target": 1,
+          "description": "First Owned Win 50",
+          "metric": "wins",
+          "target": 50,
           "mode": "Any",
-          "rule": "Complete 100 Squad Building Challenge groups."
+          "rule": "Win 50 matches in any FUT game mode with a starting squad of First Owned players."
         },
         {
-          "description": "50 SBCs",
-          "metric": "custom",
-          "target": 1,
+          "description": "First Owned Win 25",
+          "metric": "wins",
+          "target": 25,
           "mode": "Any",
-          "rule": "Complete 50 Squad Building Challenge groups."
+          "rule": "Win 25 matches in any FUT game mode with a starting squad of First Owned players."
         }
       ],
       "detailStatus": "complete",
