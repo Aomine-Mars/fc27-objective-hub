@@ -2,12 +2,12 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-04T12:12:23.222989+00:00",
+  "updatedAt": "2026-11-04T19:50:18.203588+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
-  "totalFound": 50,
-  "reportedActive": 50,
-  "detailCount": 50,
+  "totalFound": 48,
+  "reportedActive": 48,
+  "detailCount": 48,
   "skipped": 0,
   "coverage": "complete",
   "warnings": [
@@ -93,41 +93,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Play 1 match in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:189",
-      "sourceUrl": "https://fcdata.io/objectives/189-silver-bullets-flash-rush/",
-      "title": "Silver Bullets Flash Rush",
-      "category": "Campaign",
-      "expires": "2026-11-04T17:59",
-      "reward": "100 Ultimate Scream Tokens · 150",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Silver Winners",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Rush",
-          "rule": "Win 3 matches in the Silver Bullets Flash Rush Event."
-        },
-        {
-          "description": "Top Scorers",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Score at least 4 goals with a Striker in the Silver Bullets Flash Rush Event."
-        },
-        {
-          "description": "Friendly Teammate",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rush",
-          "rule": "Assist 3 goals in the Silver Bullets Flash Rush Event."
         }
       ],
       "detailStatus": "complete",
@@ -401,34 +366,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "List 10 player items in the Transfer Market."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:143",
-      "sourceUrl": "https://fcdata.io/objectives/143-fc-pro-open-cup-1/",
-      "title": "FC Pro Open Cup 1",
-      "category": "FC Pro",
-      "expires": "2026-11-04T17:59",
-      "reward": "Evo Unlock",
-      "countHint": 2,
-      "tasks": [
-        {
-          "description": "Compete",
-          "metric": "matches",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Play 5 matches in the FC Pro Open Cup 1."
-        },
-        {
-          "description": "Reach Division 5 Rivals",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Reach Division 5 in Rivals to qualify for the FC Pro Open Cup 1."
         }
       ],
       "detailStatus": "complete",
