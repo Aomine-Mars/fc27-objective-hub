@@ -2,12 +2,12 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-04T00:39:20.163140+00:00",
+  "updatedAt": "2026-11-04T12:12:23.222989+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 50,
   "reportedActive": 50,
-  "detailCount": 49,
+  "detailCount": 50,
   "skipped": 0,
   "coverage": "complete",
   "warnings": [
@@ -1754,9 +1754,9 @@
           "rule": "Reach Gallery Level 5."
         }
       ],
-      "detailStatus": "cached-previous",
+      "detailStatus": "complete",
       "sp": 0,
-      "notes": "Task details from previous successful refresh. Verify in game."
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
       "sourceKey": "fcdata:57",
