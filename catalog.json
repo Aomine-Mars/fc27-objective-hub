@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-05T00:55:07.308824+00:00",
+  "updatedAt": "2026-11-05T12:25:57.574603+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 48,
@@ -65,41 +65,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:182",
-      "sourceUrl": "https://fcdata.io/objectives/182-movember/",
-      "title": "Movember",
-      "category": "Campaign",
-      "expires": "2026-11-15T17:59",
-      "reward": "Movember",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Movember Animated TIFO",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in any FUT game mode while having the Movember Animated TIFO equipped."
-        },
-        {
-          "description": "Movember TIFO",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in any FUT game mode while having the Movember TIFO equipped."
-        },
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:178",
       "sourceUrl": "https://fcdata.io/objectives/178-liga-bbva-mx-el-dia-de-muertos/",
       "title": "Liga BBVA MX - El Día De Muertos",
@@ -128,6 +93,41 @@
           "target": 4,
           "mode": "Any",
           "rule": "Score 4 goals while having min. 2 players from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:182",
+      "sourceUrl": "https://fcdata.io/objectives/182-movember/",
+      "title": "Movember",
+      "category": "Campaign",
+      "expires": "2026-11-30T17:59",
+      "reward": "Movember",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Movember Animated TIFO",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in any FUT game mode while having the Movember Animated TIFO equipped."
+        },
+        {
+          "description": "Movember TIFO",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in any FUT game mode while having the Movember TIFO equipped."
+        },
+        {
+          "description": "Play 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in any FUT game mode."
         }
       ],
       "detailStatus": "complete",
