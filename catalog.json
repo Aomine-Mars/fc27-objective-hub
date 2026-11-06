@@ -2,12 +2,12 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-06T15:57:37.638656+00:00",
+  "updatedAt": "2026-11-06T21:32:22.035065+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
-  "totalFound": 49,
-  "reportedActive": 49,
-  "detailCount": 49,
+  "totalFound": 47,
+  "reportedActive": 47,
+  "detailCount": 47,
   "skipped": 0,
   "coverage": "complete",
   "warnings": [
@@ -15,6 +15,195 @@
     "Scheduled snapshot; manual progress only."
   ],
   "groups": [
+    {
+      "sourceKey": "fcdata:204",
+      "sourceUrl": "https://fcdata.io/objectives/204-road-to-the-knockouts-event/",
+      "title": "Road to the Knockouts Event",
+      "category": "Campaign",
+      "expires": "2026-11-13T17:59",
+      "reward": "84 Emiliano Buendía",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "Legendary",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the Road to the Knockouts Event on Legendary difficulty."
+        },
+        {
+          "description": "World Class",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the Road to the Knockouts Event on World Class difficulty."
+        },
+        {
+          "description": "Professional",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the Road to the Knockouts Event on Professional difficulty."
+        },
+        {
+          "description": "Semi-Pro",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the Road to the Knockouts Event on Semi-Pro difficulty."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:188",
+      "sourceUrl": "https://fcdata.io/objectives/188-road-to-the-knockouts-group-stage/",
+      "title": "Road to the Knockouts: Group Stage",
+      "category": "Campaign",
+      "expires": "2026-11-13T17:59",
+      "reward": "2x 85+ Gold Players Pack",
+      "countHint": 7,
+      "tasks": [
+        {
+          "description": "Best of the Best",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 10 separate matches while having min. 4 First Owned players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events)."
+        },
+        {
+          "description": "Pope's Hail Mary",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist with a GK with min. 1 English player in your starting XI in any FUT game mode."
+        },
+        {
+          "description": "Grizi's Golazo",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score a bicycle kick with min. 1 French player in your starting XI in any FUT game mode."
+        },
+        {
+          "description": "Harder's Hat-trick",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score a hat-trick with a player from GPFBL in any game mode"
+        },
+        {
+          "description": "Venemous Vitinha",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score a goal outside the box with a Ligue 1 CM and win in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events)."
+        },
+        {
+          "description": "The rise of Gegenpressing",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score in 5 separate matches while having min. 1 Borussia Dortmund player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events)."
+        },
+        {
+          "description": "The 11% Miracle",
+          "metric": "goals",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Score 2 goals while conceding 1 or less goals with min. 1 Scottish player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events)."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:174",
+      "sourceUrl": "https://fcdata.io/objectives/174-ultimate-gauntlet-3/",
+      "title": "Ultimate Gauntlet 3",
+      "category": "Campaign",
+      "expires": "2026-11-13T17:59",
+      "reward": "85 Aleix García",
+      "countHint": 10,
+      "tasks": [
+        {
+          "description": "Score in 14",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 14 separate matches in the Ultimate Gauntlet 3."
+        },
+        {
+          "description": "Score in 10",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 10 separate matches in the Ultimate Gauntlet 3."
+        },
+        {
+          "description": "Triple Perfect",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win both matches in a single Ultimate Gauntlet 3 round, three times."
+        },
+        {
+          "description": "Double Perfect",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win both matches in a single Ultimate Gauntlet 3 round, twice."
+        },
+        {
+          "description": "Perfect Round",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win both matches in a single Ultimate Gauntlet 3 round."
+        },
+        {
+          "description": "Win 5",
+          "metric": "wins",
+          "target": 5,
+          "mode": "Any",
+          "rule": "Win 5 matches in the Ultimate Gauntlet 3."
+        },
+        {
+          "description": "Win 3",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches in the Ultimate Gauntlet 3."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the Ultimate Gauntlet 3."
+        },
+        {
+          "description": "Score in 4",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 4 separate matches in the Ultimate Gauntlet 3."
+        },
+        {
+          "description": "Score 1",
+          "metric": "goals",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score 1 goal in the Ultimate Gauntlet 3."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
     {
       "sourceKey": "fcdata:170",
       "sourceUrl": "https://fcdata.io/objectives/170-daily-objectives/",
@@ -37,34 +226,6 @@
           "target": 2,
           "mode": "Any",
           "rule": "Score 2 goals in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:191",
-      "sourceUrl": "https://fcdata.io/objectives/191-fc-pro-open-global-qualifier/",
-      "title": "FC Pro Open Global Qualifier",
-      "category": "FC Pro",
-      "expires": "2026-11-14T17:59",
-      "reward": "5x 80+ Gold Players Pack",
-      "countHint": 2,
-      "tasks": [
-        {
-          "description": "Watch 60 minutes",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Watch the FC Pro Open Global Qualifier for at least 60 minutes. Broadcast will go live on November 7 at 15:00 UTC until 22:00 UTC."
-        },
-        {
-          "description": "Watch 15 minutes",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Watch the FC Pro Open Global Qualifier for at least 15 minutes. Broadcast will go live on November 7 at 15:00 UTC until 22:00 UTC."
         }
       ],
       "detailStatus": "complete",
@@ -121,6 +282,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:191",
+      "sourceUrl": "https://fcdata.io/objectives/191-fc-pro-open-global-qualifier/",
+      "title": "FC Pro Open Global Qualifier",
+      "category": "FC Pro",
+      "expires": "2026-11-14T17:59",
+      "reward": "5x 80+ Gold Players Pack",
+      "countHint": 2,
+      "tasks": [
+        {
+          "description": "Watch 60 minutes",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Watch the FC Pro Open Global Qualifier for at least 60 minutes. Broadcast will go live on November 7 at 15:00 UTC until 22:00 UTC."
+        },
+        {
+          "description": "Watch 15 minutes",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Watch the FC Pro Open Global Qualifier for at least 15 minutes. Broadcast will go live on November 7 at 15:00 UTC until 22:00 UTC."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:150",
       "sourceUrl": "https://fcdata.io/objectives/150-weekly-rush-points/",
       "title": "Weekly Rush Points",
@@ -170,41 +359,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:178",
-      "sourceUrl": "https://fcdata.io/objectives/178-liga-bbva-mx-el-dia-de-muertos/",
-      "title": "Liga BBVA MX - El Día De Muertos",
-      "category": "Campaign",
-      "expires": "2026-11-08T17:59",
-      "reward": "Liga Bbva Mx - Día De Muertos",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Los Campeones",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches while having min. 1 player from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
-        },
-        {
-          "description": "El Tri",
-          "metric": "matches",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Play 5 matches while having min. 3 Mexican players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
-        },
-        {
-          "description": "El Matón del área",
-          "metric": "goals",
-          "target": 4,
-          "mode": "Any",
-          "rule": "Score 4 goals while having min. 2 players from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:182",
       "sourceUrl": "https://fcdata.io/objectives/182-movember/",
       "title": "Movember",
@@ -233,6 +387,41 @@
           "target": 1,
           "mode": "Any",
           "rule": "Play 1 match in any FUT game mode."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:178",
+      "sourceUrl": "https://fcdata.io/objectives/178-liga-bbva-mx-el-dia-de-muertos/",
+      "title": "Liga BBVA MX - El Día De Muertos",
+      "category": "Campaign",
+      "expires": "2026-11-08T17:59",
+      "reward": "Liga Bbva Mx - Día De Muertos",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Los Campeones",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches while having min. 1 player from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
+        },
+        {
+          "description": "El Tri",
+          "metric": "matches",
+          "target": 5,
+          "mode": "Any",
+          "rule": "Play 5 matches while having min. 3 Mexican players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
+        },
+        {
+          "description": "El Matón del área",
+          "metric": "goals",
+          "target": 4,
+          "mode": "Any",
+          "rule": "Score 4 goals while having min. 2 players from Liga BBVA MX in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champs)."
         }
       ],
       "detailStatus": "complete",
@@ -282,41 +471,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:176",
-      "sourceUrl": "https://fcdata.io/objectives/176-liga-bbva-mx-is-back/",
-      "title": "Liga BBVA MX is back",
-      "category": "Campaign",
-      "expires": "2026-11-06T17:59",
-      "reward": "âLiga BBVA MX is Back' Pack",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Play 3",
-          "metric": "matches",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Play 3 matches with the Mexico National team Away kit equipped in any FUT game mode."
-        },
-        {
-          "description": "Clean Sheet",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Keep a clean sheet with the Mexico National team Away kit equipped in any FUT game mode."
-        },
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match with 3 Mexican players in your starting XI in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:181",
       "sourceUrl": "https://fcdata.io/objectives/181-bundesliga-x-playmobil-kit/",
       "title": "Bundesliga x Playmobil Kit",
@@ -345,160 +499,6 @@
           "target": 5,
           "mode": "Any",
           "rule": "Play 5 matches in any FUT game mode while having min. 1 player from Bundesliga in your starting 11."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:175",
-      "sourceUrl": "https://fcdata.io/objectives/175-ghoul-fest/",
-      "title": "Ghoul Fest",
-      "category": "Campaign",
-      "expires": "2026-11-06T17:59",
-      "reward": "Ultimate Scream Hero Badge · 150 · 200 Ultimate Scream Tokens",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Score in 13",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 13 separate matches in the Ghoul Fest Live Event."
-        },
-        {
-          "description": "Score 30",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score a total of 30 goals in the Ghoul Fest Live Event."
-        },
-        {
-          "description": "Score in 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 2 goals in 5 separate matches in the Ghoul Fest Live Event."
-        },
-        {
-          "description": "Score 3",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 3 goals in one match in the Ghoul Fest Live Event."
-        },
-        {
-          "description": "Score 2",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 2 goals in one match in the Ghoul Fest Live Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:165",
-      "sourceUrl": "https://fcdata.io/objectives/165-season-2-daily-knockout-tournament-bonus/",
-      "title": "Season 2 Daily Knockout Tournament Bonus",
-      "category": "Campaign",
-      "expires": "2026-11-06T17:59",
-      "reward": "40 Ultimate Scream Tokens · 50",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "Win 5",
-          "metric": "wins",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Win 5 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score in 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Win 2",
-          "metric": "wins",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Win 2 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score 1",
-          "metric": "goals",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score 1 goal in the Season 2 Daily Knockout Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:162",
-      "sourceUrl": "https://fcdata.io/objectives/162-phantom-playgrounds/",
-      "title": "Phantom Playgrounds",
-      "category": "Campaign",
-      "expires": "2026-11-06T17:59",
-      "reward": "100 Ultimate Scream Tokens · 50",
-      "countHint": 7,
-      "tasks": [
-        {
-          "description": "Spirit Harvest",
-          "metric": "goals",
-          "target": 50,
-          "mode": "Any",
-          "rule": "Score 50 goals while having Min. 1 Ultimate Scream Player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions)."
-        },
-        {
-          "description": "The Red Countess",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least one Chip Shot goal in 5 separate matches while having min. 1 Hungarian player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events"
-        },
-        {
-          "description": "Lost Your Head?",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score 10 headers while having Min. 1 USA player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions)."
-        },
-        {
-          "description": "Grýla's Cauldron",
-          "metric": "wins",
-          "target": 13,
-          "mode": "Any",
-          "rule": "Win 13 matches while having Min. 1 Iceland player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions)."
-        },
-        {
-          "description": "Nessie's Deep Gift",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 1 goal with a through ball in 15 separate matches while having Min. 1 Scottish player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Li"
-        },
-        {
-          "description": "Tricks and Treats",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal from outside the box in 10 separate matches with 4* or higher WF players in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions)."
-        },
-        {
-          "description": "Gulyabani's Wrath",
-          "metric": "matches",
-          "target": 7,
-          "mode": "Any",
-          "rule": "Play 7 matches while having Min. 1 Türkiye player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions)."
         }
       ],
       "detailStatus": "complete",
@@ -548,62 +548,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Achieve D Rank in the Ultimate Scream Gallery Set."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:156",
-      "sourceUrl": "https://fcdata.io/objectives/156-ultimate-scream-puzzle-completionist/",
-      "title": "Ultimate Scream Puzzle Completionist",
-      "category": "Campaign",
-      "expires": "2026-11-06T17:59",
-      "reward": "100 Ultimate Scream Tokens · 100",
-      "countHint": 6,
-      "tasks": [
-        {
-          "description": "Hocus Pocus",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete Hocus Pocus Puzzle SBC."
-        },
-        {
-          "description": "Pumpkin Seeds",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete Pumpkin Seeds Puzzle SBC."
-        },
-        {
-          "description": "Freaky Zombie",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete Freaky Zombie Puzzle SBC."
-        },
-        {
-          "description": "Boo Hoo Party",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete Boo Hoo Party Puzzle SBC."
-        },
-        {
-          "description": "Scary Candy",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete Scary Candy Puzzle SBC."
-        },
-        {
-          "description": "Spooky Nights",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete Spooky Nights Puzzle SBC."
         }
       ],
       "detailStatus": "complete",
@@ -933,41 +877,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:164",
-      "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
-      "title": "FC Heritage Circuit Completionist",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "84 Jeremiah St. Juste",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "FC Heritage Circuit World Class Challenge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the FC Heritage Circuit World Class Event objective."
-        },
-        {
-          "description": "FC Heritage Circuit Professional Challenge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the FC Heritage Circuit Professional Event objective."
-        },
-        {
-          "description": "FC Heritage Circuit Semi-Pro Challenge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the FC Heritage Circuit Semi-Pro Event objective."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:154",
       "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
       "title": "Season 2 Daily Knockout Tournament",
@@ -1031,6 +940,41 @@
           "target": 1,
           "mode": "Any",
           "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:164",
+      "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
+      "title": "FC Heritage Circuit Completionist",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "84 Jeremiah St. Juste",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "FC Heritage Circuit World Class Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the FC Heritage Circuit World Class Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Professional Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the FC Heritage Circuit Professional Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Semi-Pro Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the FC Heritage Circuit Semi-Pro Event objective."
         }
       ],
       "detailStatus": "complete",
@@ -1164,111 +1108,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:25",
-      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
-      "title": "The Journey Begins",
-      "category": "Foundations",
+      "sourceKey": "fcdata:49",
+      "sourceUrl": "https://fcdata.io/objectives/49-squad-building-milestone/",
+      "title": "Squad Building Milestone",
+      "category": "Milestones",
       "expires": "2031-10-01T16:59",
-      "reward": "3x Premier League Gold Players Pack · Anchor",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "A Test of Skill",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
-        },
-        {
-          "description": "Finding the Net",
-          "metric": "goals",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Hit the Pitch",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Lace 'em Up",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:26",
-      "sourceUrl": "https://fcdata.io/objectives/26-first-team-dreams/",
-      "title": "First Team Dreams",
-      "category": "Foundations",
-      "expires": "2031-10-01T16:59",
-      "reward": "Engine · 81 Keane Lewis-Potter",
+      "reward": "Large Gold Pack",
       "countHint": 3,
       "tasks": [
         {
-          "description": "Targeted Investments",
+          "description": "25 SBCs",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Complete 3 Squad Building Challenge groups."
+          "rule": "Complete 25 Squad Building Challenge groups."
         },
         {
-          "description": "Trading Up",
+          "description": "10 SBCs",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Complete the Bronze Upgrade Squad Building Challenge group."
+          "rule": "Complete 10 Squad Building Challenge groups."
         },
         {
-          "description": "Players Come, Players Go",
+          "description": "5 SBCs",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Complete the \"Intro to Streamlined SBCs\" Squad Building Challenge group."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:28",
-      "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
-      "title": "Total Football",
-      "category": "Foundations",
-      "expires": "2031-10-01T16:59",
-      "reward": "Gold Players Pack · 82 Charalampos Kostoulas",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Complete 'Rising Through the Ranks'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'Rising Through the Ranks' Objectives Group."
-        },
-        {
-          "description": "Complete 'First Team Dreams'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'First Team Dreams' Objectives Group."
-        },
-        {
-          "description": "Complete 'The Journey Begins'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'The Journey Begins' Objectives Group."
+          "rule": "Complete 5 Squad Building Challenge groups."
         }
       ],
       "detailStatus": "complete",
@@ -1339,6 +1206,83 @@
           "target": 1,
           "mode": "Champions",
           "rule": "Play 5 Champions matches."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:42",
+      "sourceUrl": "https://fcdata.io/objectives/42-squad-battles-milestone/",
+      "title": "Squad Battles Milestone",
+      "category": "Milestones",
+      "expires": "2031-10-01T16:59",
+      "reward": "Large Gold Pack",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Play 15",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Squad Battles",
+          "rule": "Play 15 Squad Battles Matches on any difficulty."
+        },
+        {
+          "description": "Play 10",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Squad Battles",
+          "rule": "Play 10 Squad Battles Matches on any difficulty."
+        },
+        {
+          "description": "Play 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Squad Battles",
+          "rule": "Play 5 Squad Battles Matches on any difficulty."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:25",
+      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
+      "title": "The Journey Begins",
+      "category": "Foundations",
+      "expires": "2031-10-01T16:59",
+      "reward": "3x Premier League Gold Players Pack · Anchor",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "A Test of Skill",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
+        },
+        {
+          "description": "Finding the Net",
+          "metric": "goals",
+          "target": 20,
+          "mode": "Any",
+          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
+        },
+        {
+          "description": "Hit the Pitch",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
+        },
+        {
+          "description": "Lace 'em Up",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
         }
       ],
       "detailStatus": "complete",
@@ -1437,6 +1381,111 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:28",
+      "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
+      "title": "Total Football",
+      "category": "Foundations",
+      "expires": "2031-10-01T16:59",
+      "reward": "Gold Players Pack · 82 Charalampos Kostoulas",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Complete 'Rising Through the Ranks'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'Rising Through the Ranks' Objectives Group."
+        },
+        {
+          "description": "Complete 'First Team Dreams'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'First Team Dreams' Objectives Group."
+        },
+        {
+          "description": "Complete 'The Journey Begins'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'The Journey Begins' Objectives Group."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:48",
+      "sourceUrl": "https://fcdata.io/objectives/48-live-events-milestone/",
+      "title": "Live Events Milestone",
+      "category": "Milestones",
+      "expires": "2031-10-01T16:59",
+      "reward": "1 Of 2 80+ Gold Player Pick",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Play 20",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Play 20 Live Events matches."
+        },
+        {
+          "description": "Play 10",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Play 10 Live Events matches."
+        },
+        {
+          "description": "Play 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Live Events",
+          "rule": "Play 5 Live Events matches."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:26",
+      "sourceUrl": "https://fcdata.io/objectives/26-first-team-dreams/",
+      "title": "First Team Dreams",
+      "category": "Foundations",
+      "expires": "2031-10-01T16:59",
+      "reward": "Engine · 81 Keane Lewis-Potter",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Targeted Investments",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 3 Squad Building Challenge groups."
+        },
+        {
+          "description": "Trading Up",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Bronze Upgrade Squad Building Challenge group."
+        },
+        {
+          "description": "Players Come, Players Go",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the \"Intro to Streamlined SBCs\" Squad Building Challenge group."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:81",
       "sourceUrl": "https://fcdata.io/objectives/81-gallery-milestone/",
       "title": "Gallery Milestone",
@@ -1521,167 +1570,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:42",
-      "sourceUrl": "https://fcdata.io/objectives/42-squad-battles-milestone/",
-      "title": "Squad Battles Milestone",
-      "category": "Milestones",
-      "expires": "2031-10-01T16:59",
-      "reward": "Large Gold Pack",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Play 15",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Squad Battles",
-          "rule": "Play 15 Squad Battles Matches on any difficulty."
-        },
-        {
-          "description": "Play 10",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Squad Battles",
-          "rule": "Play 10 Squad Battles Matches on any difficulty."
-        },
-        {
-          "description": "Play 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Squad Battles",
-          "rule": "Play 5 Squad Battles Matches on any difficulty."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:55",
-      "sourceUrl": "https://fcdata.io/objectives/55-transfer-market-mastery/",
-      "title": "Transfer Market Mastery",
-      "category": "Mastery",
-      "expires": "2031-10-01T16:59",
-      "reward": "Stadium Trophy · 2x 82+ Gold Players Pack · 10,000 Coins",
-      "countHint": 6,
-      "tasks": [
-        {
-          "description": "List 1,000",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "List 1,000 players on the Transfer Market."
-        },
-        {
-          "description": "List 500",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "List 500 players on the Transfer Market."
-        },
-        {
-          "description": "List 250",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "List 250 players on the Transfer Market."
-        },
-        {
-          "description": "1,000 Buy Now",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Buy 1,000 players using Buy Now on the Transfer Market."
-        },
-        {
-          "description": "500 Buy Now",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Buy 500 players using Buy Now on the Transfer Market."
-        },
-        {
-          "description": "250 Buy Now",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Buy 250 players using Buy Now on the Transfer Market."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:56",
-      "sourceUrl": "https://fcdata.io/objectives/56-squad-building-mastery/",
-      "title": "Squad Building Mastery",
-      "category": "Mastery",
-      "expires": "2031-10-01T16:59",
-      "reward": "Stadium Trophy · 2x 83+ Gold Players Pack",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "250 SBCs",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete 250 Squad Building Challenge groups."
-        },
-        {
-          "description": "100 SBCs",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete 100 Squad Building Challenge groups."
-        },
-        {
-          "description": "50 SBCs",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete 50 Squad Building Challenge groups."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:52",
-      "sourceUrl": "https://fcdata.io/objectives/52-champions-mastery/",
-      "title": "Champions Mastery",
-      "category": "Mastery",
-      "expires": "2031-10-01T16:59",
-      "reward": "50,000 Coins · 86+ Gold Player Pack · Stadium Trophy · 25 Champions Tokens",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Win 100",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Champions",
-          "rule": "Win 100 Champions matches."
-        },
-        {
-          "description": "Win 50",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Champions",
-          "rule": "Win 50 Champions matches."
-        },
-        {
-          "description": "Win 25",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Champions",
-          "rule": "Win 25 Champions matches."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:27",
       "sourceUrl": "https://fcdata.io/objectives/27-rising-through-the-ranks/",
       "title": "Rising Through the Ranks",
@@ -1731,111 +1619,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:47",
-      "sourceUrl": "https://fcdata.io/objectives/47-transfer-market-milestone/",
-      "title": "Transfer Market Milestone",
-      "category": "Milestones",
+      "sourceKey": "fcdata:52",
+      "sourceUrl": "https://fcdata.io/objectives/52-champions-mastery/",
+      "title": "Champions Mastery",
+      "category": "Mastery",
       "expires": "2031-10-01T16:59",
-      "reward": "Coin Boost",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "List 50",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "List 50 players on the Transfer Market."
-        },
-        {
-          "description": "List 25",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "List 25 players on the Transfer Market."
-        },
-        {
-          "description": "50 Buy Now",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Buy 50 players using Buy Now on the Transfer Market."
-        },
-        {
-          "description": "25 Buy Now",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Buy 25 players using Buy Now on the Transfer Market."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:49",
-      "sourceUrl": "https://fcdata.io/objectives/49-squad-building-milestone/",
-      "title": "Squad Building Milestone",
-      "category": "Milestones",
-      "expires": "2031-10-01T16:59",
-      "reward": "Large Gold Pack",
+      "reward": "50,000 Coins · 86+ Gold Player Pack · Stadium Trophy · 25 Champions Tokens",
       "countHint": 3,
       "tasks": [
         {
-          "description": "25 SBCs",
+          "description": "Win 100",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Complete 25 Squad Building Challenge groups."
+          "mode": "Champions",
+          "rule": "Win 100 Champions matches."
         },
         {
-          "description": "10 SBCs",
+          "description": "Win 50",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Complete 10 Squad Building Challenge groups."
+          "mode": "Champions",
+          "rule": "Win 50 Champions matches."
         },
         {
-          "description": "5 SBCs",
+          "description": "Win 25",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Complete 5 Squad Building Challenge groups."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:48",
-      "sourceUrl": "https://fcdata.io/objectives/48-live-events-milestone/",
-      "title": "Live Events Milestone",
-      "category": "Milestones",
-      "expires": "2031-10-01T16:59",
-      "reward": "1 Of 2 80+ Gold Player Pick",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Play 20",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Play 20 Live Events matches."
-        },
-        {
-          "description": "Play 10",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Play 10 Live Events matches."
-        },
-        {
-          "description": "Play 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Play 5 Live Events matches."
+          "mode": "Champions",
+          "rule": "Win 25 Champions matches."
         }
       ],
       "detailStatus": "complete",
@@ -1913,6 +1724,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:56",
+      "sourceUrl": "https://fcdata.io/objectives/56-squad-building-mastery/",
+      "title": "Squad Building Mastery",
+      "category": "Mastery",
+      "expires": "2031-10-01T16:59",
+      "reward": "Stadium Trophy · 2x 83+ Gold Players Pack",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "250 SBCs",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 250 Squad Building Challenge groups."
+        },
+        {
+          "description": "100 SBCs",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 100 Squad Building Challenge groups."
+        },
+        {
+          "description": "50 SBCs",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 50 Squad Building Challenge groups."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:51",
       "sourceUrl": "https://fcdata.io/objectives/51-moments-stars-milestone/",
       "title": "Moments Stars Milestone",
@@ -1941,6 +1787,62 @@
           "target": 1,
           "mode": "Any",
           "rule": "Complete Moments challenges to earn 15 Stars."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:55",
+      "sourceUrl": "https://fcdata.io/objectives/55-transfer-market-mastery/",
+      "title": "Transfer Market Mastery",
+      "category": "Mastery",
+      "expires": "2031-10-01T16:59",
+      "reward": "Stadium Trophy · 2x 82+ Gold Players Pack · 10,000 Coins",
+      "countHint": 6,
+      "tasks": [
+        {
+          "description": "List 1,000",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "List 1,000 players on the Transfer Market."
+        },
+        {
+          "description": "List 500",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "List 500 players on the Transfer Market."
+        },
+        {
+          "description": "List 250",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "List 250 players on the Transfer Market."
+        },
+        {
+          "description": "1,000 Buy Now",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Buy 1,000 players using Buy Now on the Transfer Market."
+        },
+        {
+          "description": "500 Buy Now",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Buy 500 players using Buy Now on the Transfer Market."
+        },
+        {
+          "description": "250 Buy Now",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Buy 250 players using Buy Now on the Transfer Market."
         }
       ],
       "detailStatus": "complete",
@@ -2067,6 +1969,48 @@
           "target": 1,
           "mode": "Rush",
           "rule": "Play 5 Rush matches."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:47",
+      "sourceUrl": "https://fcdata.io/objectives/47-transfer-market-milestone/",
+      "title": "Transfer Market Milestone",
+      "category": "Milestones",
+      "expires": "2031-10-01T16:59",
+      "reward": "Coin Boost",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "List 50",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "List 50 players on the Transfer Market."
+        },
+        {
+          "description": "List 25",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "List 25 players on the Transfer Market."
+        },
+        {
+          "description": "50 Buy Now",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Buy 50 players using Buy Now on the Transfer Market."
+        },
+        {
+          "description": "25 Buy Now",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Buy 25 players using Buy Now on the Transfer Market."
         }
       ],
       "detailStatus": "complete",
