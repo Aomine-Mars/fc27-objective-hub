@@ -2,12 +2,12 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-07T20:15:36.289387+00:00",
+  "updatedAt": "2026-11-07T23:41:12.465303+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 47,
   "reportedActive": 47,
-  "detailCount": 47,
+  "detailCount": 44,
   "skipped": 0,
   "coverage": "complete",
   "warnings": [
@@ -217,7 +217,7 @@
       "title": "Road to the Knockouts Event",
       "category": "Campaign",
       "expires": "2026-11-13T17:59",
-      "reward": "84 Emiliano Buendía",
+      "reward": "84 CAM CM LM LW R 4 ★ 4 Emiliano Buendía PAC 82 SHO 84 PAS 84 DRI 86 DEF 70 PHY 74 OBJ 84 Emiliano Buendía",
       "countHint": 4,
       "tasks": [
         {
@@ -249,9 +249,9 @@
           "rule": "Win 1 match in the Road to the Knockouts Event on Semi-Pro difficulty."
         }
       ],
-      "detailStatus": "complete",
+      "detailStatus": "cached-previous",
       "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+      "notes": "Task details from previous successful refresh. Verify in game."
     },
     {
       "sourceKey": "fcdata:136",
@@ -826,7 +826,7 @@
       "title": "FC Heritage Circuit Tournament",
       "category": "Season",
       "expires": "2026-12-03T07:59",
-      "reward": "85 Alexis Sánchez",
+      "reward": "85 ST CM CAM R 4 ★ 4 Alexis Sánchez PAC 86 SHO 83 PAS 82 DRI 85 DEF 56 PHY 72 OBJ 85 Alexis Sánchez",
       "countHint": 7,
       "tasks": [
         {
@@ -879,9 +879,9 @@
           "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
         }
       ],
-      "detailStatus": "complete",
+      "detailStatus": "cached-previous",
       "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+      "notes": "Task details from previous successful refresh. Verify in game."
     },
     {
       "sourceKey": "fcdata:164",
@@ -889,7 +889,7 @@
       "title": "FC Heritage Circuit Completionist",
       "category": "Season",
       "expires": "2026-12-03T07:59",
-      "reward": "84 Jeremiah St. Juste",
+      "reward": "84 CB R 3 ★ 3 Jeremiah St. Juste PAC 90 SHO 66 PAS 70 DRI 73 DEF 80 PHY 79 OBJ 84 Jeremiah St. Juste",
       "countHint": 3,
       "tasks": [
         {
@@ -914,9 +914,9 @@
           "rule": "Complete the FC Heritage Circuit Semi-Pro Event objective."
         }
       ],
-      "detailStatus": "complete",
+      "detailStatus": "cached-previous",
       "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+      "notes": "Task details from previous successful refresh. Verify in game."
     },
     {
       "sourceKey": "fcdata:166",
