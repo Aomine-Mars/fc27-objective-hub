@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-10T02:45:58.370215+00:00",
+  "updatedAt": "2026-11-10T12:43:09.845365+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 48,
@@ -653,6 +653,76 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:154",
+      "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
+      "title": "Season 2 Daily Knockout Tournament",
+      "category": "Season",
+      "expires": "2026-12-03T07:59",
+      "reward": "85 Olga Carmona",
+      "countHint": 8,
+      "tasks": [
+        {
+          "description": "Win Tournament Five Times",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the Season 2 Daily Knockout Tournament five times."
+        },
+        {
+          "description": "Score in 50",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Win Tournament",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Score in 12",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Score 15",
+          "metric": "goals",
+          "target": 15,
+          "mode": "Any",
+          "rule": "Score 15 goals in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 20",
+          "metric": "matches",
+          "target": 20,
+          "mode": "Any",
+          "rule": "Play 20 matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 10",
+          "metric": "matches",
+          "target": 10,
+          "mode": "Any",
+          "rule": "Play 10 matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:167",
       "sourceUrl": "https://fcdata.io/objectives/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
       "title": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
@@ -758,76 +828,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:154",
-      "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
-      "title": "Season 2 Daily Knockout Tournament",
-      "category": "Season",
-      "expires": "2026-12-03T07:59",
-      "reward": "85 Olga Carmona",
-      "countHint": 8,
-      "tasks": [
-        {
-          "description": "Win Tournament Five Times",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the Season 2 Daily Knockout Tournament five times."
-        },
-        {
-          "description": "Score in 50",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Win Tournament",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score in 12",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score 15",
-          "metric": "goals",
-          "target": 15,
-          "mode": "Any",
-          "rule": "Score 15 goals in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 20",
-          "metric": "matches",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Play 20 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 10",
-          "metric": "matches",
-          "target": 10,
-          "mode": "Any",
-          "rule": "Play 10 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
         }
       ],
       "detailStatus": "complete",
@@ -1346,34 +1346,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:26",
-      "sourceUrl": "https://fcdata.io/objectives/26-first-team-dreams/",
-      "title": "First Team Dreams",
+      "sourceKey": "fcdata:25",
+      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
+      "title": "The Journey Begins",
       "category": "Foundations",
       "expires": "2031-10-01T16:59",
-      "reward": "Engine · 81 Keane Lewis-Potter",
-      "countHint": 3,
+      "reward": "3x Premier League Gold Players Pack · Anchor",
+      "countHint": 4,
       "tasks": [
         {
-          "description": "Targeted Investments",
+          "description": "A Test of Skill",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Complete 3 Squad Building Challenge groups."
+          "mode": "Live Events",
+          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
         },
         {
-          "description": "Trading Up",
-          "metric": "custom",
-          "target": 1,
+          "description": "Finding the Net",
+          "metric": "goals",
+          "target": 20,
           "mode": "Any",
-          "rule": "Complete the Bronze Upgrade Squad Building Challenge group."
+          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
         },
         {
-          "description": "Players Come, Players Go",
+          "description": "Hit the Pitch",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Complete the \"Intro to Streamlined SBCs\" Squad Building Challenge group."
+          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
+        },
+        {
+          "description": "Lace 'em Up",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
         }
       ],
       "detailStatus": "complete",
@@ -1423,41 +1430,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:25",
-      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
-      "title": "The Journey Begins",
+      "sourceKey": "fcdata:26",
+      "sourceUrl": "https://fcdata.io/objectives/26-first-team-dreams/",
+      "title": "First Team Dreams",
       "category": "Foundations",
       "expires": "2031-10-01T16:59",
-      "reward": "3x Premier League Gold Players Pack · Anchor",
-      "countHint": 4,
+      "reward": "Engine · 81 Keane Lewis-Potter",
+      "countHint": 3,
       "tasks": [
         {
-          "description": "A Test of Skill",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
-        },
-        {
-          "description": "Finding the Net",
-          "metric": "goals",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Hit the Pitch",
+          "description": "Targeted Investments",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
+          "rule": "Complete 3 Squad Building Challenge groups."
         },
         {
-          "description": "Lace 'em Up",
+          "description": "Trading Up",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
+          "rule": "Complete the Bronze Upgrade Squad Building Challenge group."
+        },
+        {
+          "description": "Players Come, Players Go",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the \"Intro to Streamlined SBCs\" Squad Building Challenge group."
         }
       ],
       "detailStatus": "complete",
