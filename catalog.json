@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-15T15:41:15.683006+00:00",
+  "updatedAt": "2026-11-15T21:04:03.799109+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 54,
@@ -16,41 +16,27 @@
   ],
   "groups": [
     {
-      "sourceKey": "fcdata:208",
-      "sourceUrl": "https://fcdata.io/objectives/208-ultimate-weekly-play-completionist/",
-      "title": "Ultimate Weekly Play Completionist",
+      "sourceKey": "fcdata:205",
+      "sourceUrl": "https://fcdata.io/objectives/205-ravenna-fc-x-r10/",
+      "title": "Ravenna FC X R10",
       "category": "Campaign",
-      "expires": "2026-12-11T18:59",
-      "reward": "1 Of 3 Hall Of Fut Unleashed Guarantee Pp",
-      "countHint": 4,
+      "expires": "2026-11-20T18:59",
+      "reward": "Nyrb/Gotham Superfan",
+      "countHint": 2,
       "tasks": [
         {
-          "description": "Complete Ultimate Weekly Play Completionist Week 4",
-          "metric": "custom",
-          "target": 1,
+          "description": "O Bruxo",
+          "metric": "goals",
+          "target": 3,
           "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 4"
+          "rule": "Score 3 goals in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush)."
         },
         {
-          "description": "Complete Ultimate Weekly Play Completionist Week 3",
-          "metric": "custom",
-          "target": 1,
+          "description": "Giallorossi Flair",
+          "metric": "matches",
+          "target": 2,
           "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 3"
-        },
-        {
-          "description": "Complete Ultimate Weekly Play Completionist Week 2",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 2"
-        },
-        {
-          "description": "Complete Ultimate Weekly Play Completionist Week 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 1"
+          "rule": "Play 2 matches with min. 1 Italian player in your starting 11 in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush)."
         }
       ],
       "detailStatus": "complete",
@@ -191,27 +177,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:200",
-      "sourceUrl": "https://fcdata.io/objectives/200-ultimate-weekly-play-objective/",
-      "title": "Ultimate Weekly Play Objective",
-      "category": "Campaign",
-      "expires": "2026-11-20T18:59",
-      "reward": "Shadow",
-      "countHint": 1,
-      "tasks": [
-        {
-          "description": "Play 2",
-          "metric": "matches",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Play 2 matches in any game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:194",
       "sourceUrl": "https://fcdata.io/objectives/194-hof-unleashed-league-bonus/",
       "title": "HOF: Unleashed League Bonus",
@@ -254,27 +219,62 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:205",
-      "sourceUrl": "https://fcdata.io/objectives/205-ravenna-fc-x-r10/",
-      "title": "Ravenna FC X R10",
+      "sourceKey": "fcdata:200",
+      "sourceUrl": "https://fcdata.io/objectives/200-ultimate-weekly-play-objective/",
+      "title": "Ultimate Weekly Play Objective",
       "category": "Campaign",
       "expires": "2026-11-20T18:59",
-      "reward": "Nyrb/Gotham Superfan",
-      "countHint": 2,
+      "reward": "Shadow",
+      "countHint": 1,
       "tasks": [
         {
-          "description": "O Bruxo",
-          "metric": "goals",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Score 3 goals in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush)."
-        },
-        {
-          "description": "Giallorossi Flair",
+          "description": "Play 2",
           "metric": "matches",
           "target": 2,
           "mode": "Any",
-          "rule": "Play 2 matches with min. 1 Italian player in your starting 11 in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush)."
+          "rule": "Play 2 matches in any game mode."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:208",
+      "sourceUrl": "https://fcdata.io/objectives/208-ultimate-weekly-play-completionist/",
+      "title": "Ultimate Weekly Play Completionist",
+      "category": "Campaign",
+      "expires": "2026-12-11T18:59",
+      "reward": "1 Of 3 Hall Of Fut Unleashed Guarantee Pp",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 4",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 4"
+        },
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 3",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 3"
+        },
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 2",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 2"
+        },
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 1"
         }
       ],
       "detailStatus": "complete",
@@ -842,6 +842,160 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:167",
+      "sourceUrl": "https://fcdata.io/objectives/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
+      "title": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "84 Axel Witsel",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "5 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times."
+        },
+        {
+          "description": "4 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times."
+        },
+        {
+          "description": "3 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times."
+        },
+        {
+          "description": "2 Completions",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times."
+        },
+        {
+          "description": "1 Completion",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:154",
+      "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
+      "title": "Season 2 Daily Knockout Tournament",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "85 Olga Carmona",
+      "countHint": 8,
+      "tasks": [
+        {
+          "description": "Win Tournament Five Times",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the Season 2 Daily Knockout Tournament five times."
+        },
+        {
+          "description": "Score in 50",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Win Tournament",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Score in 12",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Score 15",
+          "metric": "goals",
+          "target": 15,
+          "mode": "Any",
+          "rule": "Score 15 goals in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 20",
+          "metric": "matches",
+          "target": 20,
+          "mode": "Any",
+          "rule": "Play 20 matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 10",
+          "metric": "matches",
+          "target": 10,
+          "mode": "Any",
+          "rule": "Play 10 matches in the Season 2 Daily Knockout Tournament."
+        },
+        {
+          "description": "Play 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:164",
+      "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
+      "title": "FC Heritage Circuit Completionist",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "84 Jeremiah St. Juste",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "FC Heritage Circuit World Class Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the FC Heritage Circuit World Class Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Professional Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the FC Heritage Circuit Professional Event objective."
+        },
+        {
+          "description": "FC Heritage Circuit Semi-Pro Challenge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the FC Heritage Circuit Semi-Pro Event objective."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:160",
       "sourceUrl": "https://fcdata.io/objectives/160-fc-heritage-circuit-kick-off-event/",
       "title": "FC Heritage Circuit Kick Off Event",
@@ -877,55 +1031,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Score 1 goal in the FC Heritage Circuit Kick Off Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:161",
-      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
-      "title": "FC Heritage Circuit World Class Event",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "2x 82+ Gold Players Pack",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Bundesliga Backbone",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bavarian Thunder",
-          "metric": "goals",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Paris Power Surge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bernabéu Thunder",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
         }
       ],
       "detailStatus": "complete",
@@ -1052,41 +1157,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:164",
-      "sourceUrl": "https://fcdata.io/objectives/164-fc-heritage-circuit-completionist/",
-      "title": "FC Heritage Circuit Completionist",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "84 Jeremiah St. Juste",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "FC Heritage Circuit World Class Challenge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the FC Heritage Circuit World Class Event objective."
-        },
-        {
-          "description": "FC Heritage Circuit Professional Challenge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the FC Heritage Circuit Professional Event objective."
-        },
-        {
-          "description": "FC Heritage Circuit Semi-Pro Challenge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the FC Heritage Circuit Semi-Pro Event objective."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:158",
       "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
       "title": "FC Heritage Circuit Tournament",
@@ -1150,118 +1220,48 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:167",
-      "sourceUrl": "https://fcdata.io/objectives/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
-      "title": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
+      "sourceKey": "fcdata:161",
+      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
+      "title": "FC Heritage Circuit World Class Event",
       "category": "Season",
       "expires": "2026-12-03T08:59",
-      "reward": "84 Axel Witsel",
+      "reward": "2x 82+ Gold Players Pack",
       "countHint": 5,
       "tasks": [
         {
-          "description": "5 Completions",
-          "metric": "custom",
-          "target": 1,
+          "description": "Bundesliga Backbone",
+          "metric": "wins",
+          "target": 3,
           "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times."
+          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
         },
         {
-          "description": "4 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times."
-        },
-        {
-          "description": "3 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times."
-        },
-        {
-          "description": "2 Completions",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times."
-        },
-        {
-          "description": "1 Completion",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:154",
-      "sourceUrl": "https://fcdata.io/objectives/154-season-2-daily-knockout-tournament/",
-      "title": "Season 2 Daily Knockout Tournament",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "85 Olga Carmona",
-      "countHint": 8,
-      "tasks": [
-        {
-          "description": "Win Tournament Five Times",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the Season 2 Daily Knockout Tournament five times."
-        },
-        {
-          "description": "Score in 50",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Win Tournament",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score in 12",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Score 15",
+          "description": "Bavarian Thunder",
           "metric": "goals",
-          "target": 15,
+          "target": 5,
           "mode": "Any",
-          "rule": "Score 15 goals in the Season 2 Daily Knockout Tournament."
+          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
         },
         {
-          "description": "Play 20",
-          "metric": "matches",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Play 20 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 10",
-          "metric": "matches",
-          "target": 10,
-          "mode": "Any",
-          "rule": "Play 10 matches in the Season 2 Daily Knockout Tournament."
-        },
-        {
-          "description": "Play 1",
+          "description": "Paris Power Surge",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Play 1 match in the Season 2 Daily Knockout Tournament."
+          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bernabéu Thunder",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
         }
       ],
       "detailStatus": "complete",
