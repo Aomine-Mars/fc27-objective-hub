@@ -2,7 +2,7 @@
   "version": 2,
   "source": "FCData public objective pages",
   "sourceUrl": "https://fcdata.io/objectives",
-  "updatedAt": "2026-11-28T00:04:20.941958+00:00",
+  "updatedAt": "2026-11-28T07:55:13.113477+00:00",
   "sourceMode": "SCHEDULED STATIC UPDATE",
   "live": false,
   "totalFound": 59,
@@ -15,83 +15,6 @@
     "Scheduled snapshot; manual progress only."
   ],
   "groups": [
-    {
-      "sourceKey": "fcdata:245",
-      "sourceUrl": "https://fcdata.io/objectives/245-thunder-storm/",
-      "title": "Thunder Storm",
-      "category": "Campaign",
-      "expires": "2026-12-04T18:59",
-      "reward": "100 Thunderstruck Tokens",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Here Comes The Boom",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "List 5 players on the Transfer Market."
-        },
-        {
-          "description": "SBC Thunderclap",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete 5 SBCs."
-        },
-        {
-          "description": "Sparked Out",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Rivals",
-          "rule": "Assist in 1 Division Rivals match."
-        },
-        {
-          "description": "Shock and Awe",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Squad Battles",
-          "rule": "Score a finesse goal in 2 separate matches in Squad Battles on min. Semi-Pro difficulty."
-        },
-        {
-          "description": "Lightning Bolt",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist in 1 match in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:248",
-      "sourceUrl": "https://fcdata.io/objectives/248-formation-champions-objective/",
-      "title": "Formation Champions Objective",
-      "category": "Campaign",
-      "expires": "2026-12-01T18:59",
-      "reward": "50 Champions Tokens",
-      "countHint": 2,
-      "tasks": [
-        {
-          "description": "Four at the back",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Champions",
-          "rule": "Score in 5 separate matches using the 4-3-2-1 or 4-2-4 (Without changing) in FUT Champions."
-        },
-        {
-          "description": "Three at the back",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Champions",
-          "rule": "Score in 3 matches using the 3-1-4-2 or 3-4-3 (Without changing) in FUT Champions."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
     {
       "sourceKey": "fcdata:249",
       "sourceUrl": "https://fcdata.io/objectives/249-amped-up/",
@@ -142,6 +65,83 @@
           "target": 2,
           "mode": "Any",
           "rule": "Play 2 matches in any game mode."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:248",
+      "sourceUrl": "https://fcdata.io/objectives/248-formation-champions-objective/",
+      "title": "Formation Champions Objective",
+      "category": "Campaign",
+      "expires": "2026-12-01T18:59",
+      "reward": "50 Champions Tokens",
+      "countHint": 2,
+      "tasks": [
+        {
+          "description": "Four at the back",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Champions",
+          "rule": "Score in 5 separate matches using the 4-3-2-1 or 4-2-4 (Without changing) in FUT Champions."
+        },
+        {
+          "description": "Three at the back",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Champions",
+          "rule": "Score in 3 matches using the 3-1-4-2 or 3-4-3 (Without changing) in FUT Champions."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:245",
+      "sourceUrl": "https://fcdata.io/objectives/245-thunder-storm/",
+      "title": "Thunder Storm",
+      "category": "Campaign",
+      "expires": "2026-12-04T18:59",
+      "reward": "100 Thunderstruck Tokens",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Here Comes The Boom",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "List 5 players on the Transfer Market."
+        },
+        {
+          "description": "SBC Thunderclap",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 5 SBCs."
+        },
+        {
+          "description": "Sparked Out",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Rivals",
+          "rule": "Assist in 1 Division Rivals match."
+        },
+        {
+          "description": "Shock and Awe",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Squad Battles",
+          "rule": "Score a finesse goal in 2 separate matches in Squad Battles on min. Semi-Pro difficulty."
+        },
+        {
+          "description": "Lightning Bolt",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist in 1 match in any FUT game mode."
         }
       ],
       "detailStatus": "complete",
@@ -205,6 +205,34 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:238",
+      "sourceUrl": "https://fcdata.io/objectives/238-thunderstruck-first-to-2/",
+      "title": "Thunderstruck First to 2",
+      "category": "Campaign",
+      "expires": "2026-11-28T18:59",
+      "reward": "150 Thunderstruck Tokens",
+      "countHint": 2,
+      "tasks": [
+        {
+          "description": "Score in 3",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score in 3 separate matches in the Thunderstruck First to 2 Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the Thunderstruck First to 2 Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:234",
       "sourceUrl": "https://fcdata.io/objectives/234-thunderstruck-live-event-completionist/",
       "title": "Thunderstruck Live Event Completionist",
@@ -240,34 +268,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Complete the Thunderstruck First to 2 Event Objective."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:173",
-      "sourceUrl": "https://fcdata.io/objectives/173-daily-objectives/",
-      "title": "Daily Objectives",
-      "category": "Daily",
-      "expires": "2026-12-03T08:59",
-      "reward": "10",
-      "countHint": 2,
-      "tasks": [
-        {
-          "description": "Play 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 1 match in any FUT game mode."
-        },
-        {
-          "description": "Scoring Success",
-          "metric": "goals",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Score 2 goals in any FUT game mode."
         }
       ],
       "detailStatus": "complete",
@@ -324,48 +324,27 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:238",
-      "sourceUrl": "https://fcdata.io/objectives/238-thunderstruck-first-to-2/",
-      "title": "Thunderstruck First to 2",
-      "category": "Campaign",
-      "expires": "2026-11-28T18:59",
-      "reward": "150 Thunderstruck Tokens",
+      "sourceKey": "fcdata:173",
+      "sourceUrl": "https://fcdata.io/objectives/173-daily-objectives/",
+      "title": "Daily Objectives",
+      "category": "Daily",
+      "expires": "2026-12-03T08:59",
+      "reward": "10",
       "countHint": 2,
       "tasks": [
         {
-          "description": "Score in 3",
+          "description": "Play 1",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Score in 3 separate matches in the Thunderstruck First to 2 Event."
+          "rule": "Play 1 match in any FUT game mode."
         },
         {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
+          "description": "Scoring Success",
+          "metric": "goals",
+          "target": 2,
           "mode": "Any",
-          "rule": "Win 1 match in the Thunderstruck First to 2 Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:237",
-      "sourceUrl": "https://fcdata.io/objectives/237-samsunspor-x-symbol-of-change-kit/",
-      "title": "Samsunspor x Symbol of Change Kit",
-      "category": "Campaign",
-      "expires": "2026-12-01T18:59",
-      "reward": "Samsunspor X Symbol Of Change",
-      "countHint": 1,
-      "tasks": [
-        {
-          "description": "Play 3",
-          "metric": "matches",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Play 3 matches in any FUT game mode with at least one Trendyol Süper Lig player in your starting XI."
+          "rule": "Score 2 goals in any FUT game mode."
         }
       ],
       "detailStatus": "complete",
@@ -415,6 +394,27 @@
           "target": 1,
           "mode": "Rush",
           "rule": "Earn 2,500 points by completing bonuses in Rush."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:237",
+      "sourceUrl": "https://fcdata.io/objectives/237-samsunspor-x-symbol-of-change-kit/",
+      "title": "Samsunspor x Symbol of Change Kit",
+      "category": "Campaign",
+      "expires": "2026-12-01T18:59",
+      "reward": "Samsunspor X Symbol Of Change",
+      "countHint": 1,
+      "tasks": [
+        {
+          "description": "Play 3",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Play 3 matches in any FUT game mode with at least one Trendyol Süper Lig player in your starting XI."
         }
       ],
       "detailStatus": "complete",
@@ -597,6 +597,76 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:219",
+      "sourceUrl": "https://fcdata.io/objectives/219-daily-login-upgrade-sbc-completionist/",
+      "title": "Daily Login Upgrade SBC Completionist",
+      "category": "Campaign",
+      "expires": "2026-12-04T19:00",
+      "reward": "100 Thunderstruck Tokens · Thunderstruck Premium Badge",
+      "countHint": 8,
+      "tasks": [
+        {
+          "description": "Complete 10",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 10 times."
+        },
+        {
+          "description": "Complete 9",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 9 times."
+        },
+        {
+          "description": "Complete 7",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 7 times."
+        },
+        {
+          "description": "Complete 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 5 times."
+        },
+        {
+          "description": "Complete 4",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 4 times."
+        },
+        {
+          "description": "Complete 3",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 3 times."
+        },
+        {
+          "description": "Complete 2",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 2 times."
+        },
+        {
+          "description": "Complete 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Thunderstruck Daily Log in SBC 1 time."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:233",
       "sourceUrl": "https://fcdata.io/objectives/233-thunderstruck-daily-play-completionist/",
       "title": "Thunderstruck Daily Play Completionist",
@@ -702,76 +772,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:219",
-      "sourceUrl": "https://fcdata.io/objectives/219-daily-login-upgrade-sbc-completionist/",
-      "title": "Daily Login Upgrade SBC Completionist",
-      "category": "Campaign",
-      "expires": "2026-12-04T19:00",
-      "reward": "100 Thunderstruck Tokens · Thunderstruck Premium Badge",
-      "countHint": 8,
-      "tasks": [
-        {
-          "description": "Complete 10",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 10 times."
-        },
-        {
-          "description": "Complete 9",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 9 times."
-        },
-        {
-          "description": "Complete 7",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 7 times."
-        },
-        {
-          "description": "Complete 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 5 times."
-        },
-        {
-          "description": "Complete 4",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 4 times."
-        },
-        {
-          "description": "Complete 3",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 3 times."
-        },
-        {
-          "description": "Complete 2",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 2 times."
-        },
-        {
-          "description": "Complete 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Thunderstruck Daily Log in SBC 1 time."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:147",
       "sourceUrl": "https://fcdata.io/objectives/147-season-2-sp-chase/",
       "title": "Season 2 Chase",
@@ -814,48 +814,6 @@
           "target": 5,
           "mode": "Any",
           "rule": "Score 5 goals in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush)."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:208",
-      "sourceUrl": "https://fcdata.io/objectives/208-ultimate-weekly-play-completionist/",
-      "title": "Ultimate Weekly Play Completionist",
-      "category": "Campaign",
-      "expires": "2026-12-11T18:59",
-      "reward": "1 Of 3 Hall Of Fut Unleashed Guarantee Pp",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "Complete Ultimate Weekly Play Completionist Week 4",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 4"
-        },
-        {
-          "description": "Complete Ultimate Weekly Play Completionist Week 3",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 3"
-        },
-        {
-          "description": "Complete Ultimate Weekly Play Completionist Week 2",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 2"
-        },
-        {
-          "description": "Complete Ultimate Weekly Play Completionist Week 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Complete the Ultimate Weekly Play Completionist Week 1"
         }
       ],
       "detailStatus": "complete",
@@ -912,6 +870,48 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:208",
+      "sourceUrl": "https://fcdata.io/objectives/208-ultimate-weekly-play-completionist/",
+      "title": "Ultimate Weekly Play Completionist",
+      "category": "Campaign",
+      "expires": "2026-12-11T18:59",
+      "reward": "1 Of 3 Hall Of Fut Unleashed Guarantee Pp",
+      "countHint": 4,
+      "tasks": [
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 4",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 4"
+        },
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 3",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 3"
+        },
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 2",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 2"
+        },
+        {
+          "description": "Complete Ultimate Weekly Play Completionist Week 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Ultimate Weekly Play Completionist Week 1"
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:179",
       "sourceUrl": "https://fcdata.io/objectives/179-ultimate-scream-evolving-stage-2-kit/",
       "title": "Ultimate Scream Evolving - Stage 2 Kit",
@@ -940,6 +940,41 @@
           "target": 3,
           "mode": "Any",
           "rule": "Play 3 matches in any FUT game mode while having the Ultimate Scream Evolving - Stage 2 Kit equipped."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:180",
+      "sourceUrl": "https://fcdata.io/objectives/180-ultimate-scream-evolving-stage-3-kit/",
+      "title": "Ultimate Scream Evolving - Stage 3 Kit",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "7x 82+ Gold Players Pack · 400",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Win 3",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches in any FUT game mode while having the Ultimate Scream Evolving - Stage 3 Kit equipped."
+        },
+        {
+          "description": "Score 3",
+          "metric": "goals",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Score 3 goals in any FUT game mode while having the Ultimate Scream Evolving - Stage 3 Kit equipped."
+        },
+        {
+          "description": "Play 3",
+          "metric": "matches",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Play 3 matches in any FUT game mode while having the Ultimate Scream Evolving - Stage 3 Kit equipped."
         }
       ],
       "detailStatus": "complete",
@@ -1031,41 +1066,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:180",
-      "sourceUrl": "https://fcdata.io/objectives/180-ultimate-scream-evolving-stage-3-kit/",
-      "title": "Ultimate Scream Evolving - Stage 3 Kit",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "7x 82+ Gold Players Pack · 400",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Win 3",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches in any FUT game mode while having the Ultimate Scream Evolving - Stage 3 Kit equipped."
-        },
-        {
-          "description": "Score 3",
-          "metric": "goals",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Score 3 goals in any FUT game mode while having the Ultimate Scream Evolving - Stage 3 Kit equipped."
-        },
-        {
-          "description": "Play 3",
-          "metric": "matches",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Play 3 matches in any FUT game mode while having the Ultimate Scream Evolving - Stage 3 Kit equipped."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:182",
       "sourceUrl": "https://fcdata.io/objectives/182-movember/",
       "title": "Movember",
@@ -1101,160 +1101,6 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:161",
-      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
-      "title": "FC Heritage Circuit World Class Event",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "2x 82+ Gold Players Pack",
-      "countHint": 5,
-      "tasks": [
-        {
-          "description": "Bundesliga Backbone",
-          "metric": "wins",
-          "target": 3,
-          "mode": "Any",
-          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bavarian Thunder",
-          "metric": "goals",
-          "target": 5,
-          "mode": "Any",
-          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Paris Power Surge",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Bernabéu Thunder",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
-        },
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:158",
-      "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
-      "title": "FC Heritage Circuit Tournament",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "85 Alexis Sánchez",
-      "countHint": 7,
-      "tasks": [
-        {
-          "description": "Heritage Champion",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the FC Heritage Circuit Tournament 3 times."
-        },
-        {
-          "description": "Thunder Final",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11."
-        },
-        {
-          "description": "Ligue 1 Finest",
-          "metric": "wins",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "Oranje Legacy",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "Madrid Royalty",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "French Thrill",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament."
-        },
-        {
-          "description": "Serie A after Dark",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:160",
-      "sourceUrl": "https://fcdata.io/objectives/160-fc-heritage-circuit-kick-off-event/",
-      "title": "FC Heritage Circuit Kick Off Event",
-      "category": "Season",
-      "expires": "2026-12-03T08:59",
-      "reward": "2x 79+ Gold Players Pack",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "Win 1",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit Kick Off Event."
-        },
-        {
-          "description": "Assist in 2",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event."
-        },
-        {
-          "description": "Play 2",
-          "metric": "matches",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Play 2 matches in the FC Heritage Circuit Kick Off Event."
-        },
-        {
-          "description": "Score 1",
-          "metric": "goals",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score 1 goal in the FC Heritage Circuit Kick Off Event."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
       "sourceKey": "fcdata:166",
       "sourceUrl": "https://fcdata.io/objectives/166-season-2-daily-knockout-tournament-weekly-play/",
       "title": "Season 2 Daily Knockout Tournament Weekly Play",
@@ -1269,6 +1115,104 @@
           "target": 1,
           "mode": "Any",
           "rule": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:155",
+      "sourceUrl": "https://fcdata.io/objectives/155-fc-heritage-circuit-semi-pro-event/",
+      "title": "FC Heritage Circuit Semi-Pro Event",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "2x 80+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Madrid After Midnight",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Win 2 matches while having Min. 2 Real Madrid (LALIGA) players in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
+        },
+        {
+          "description": "MLS After Dark",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 2 goals in one match while having Min. 1 MLS player in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
+        },
+        {
+          "description": "French Fright",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 3 goals while having Min. 1 Ligue 1 player in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
+        },
+        {
+          "description": "Scream in Serie A",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score in 2 separate matches while having Min. 1 Serie A player in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit Semi-Pro Event and qualify for the FC Heritage Circuit Professional Event."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:157",
+      "sourceUrl": "https://fcdata.io/objectives/157-fc-heritage-circuit-professional-event/",
+      "title": "FC Heritage Circuit Professional Event",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "2x 81+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Premier Pride",
+          "metric": "wins",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "French Connection",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Belgian Tower",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Three Lions Legacy",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event."
+        },
+        {
+          "description": "Win 1",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event."
         }
       ],
       "detailStatus": "complete",
@@ -1430,48 +1374,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:155",
-      "sourceUrl": "https://fcdata.io/objectives/155-fc-heritage-circuit-semi-pro-event/",
-      "title": "FC Heritage Circuit Semi-Pro Event",
+      "sourceKey": "fcdata:160",
+      "sourceUrl": "https://fcdata.io/objectives/160-fc-heritage-circuit-kick-off-event/",
+      "title": "FC Heritage Circuit Kick Off Event",
       "category": "Season",
       "expires": "2026-12-03T08:59",
-      "reward": "2x 80+ Gold Players Pack",
-      "countHint": 5,
+      "reward": "2x 79+ Gold Players Pack",
+      "countHint": 4,
       "tasks": [
-        {
-          "description": "Madrid After Midnight",
-          "metric": "wins",
-          "target": 2,
-          "mode": "Any",
-          "rule": "Win 2 matches while having Min. 2 Real Madrid (LALIGA) players in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
-        },
-        {
-          "description": "MLS After Dark",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score at least 2 goals in one match while having Min. 1 MLS player in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
-        },
-        {
-          "description": "French Fright",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Assist at least 3 goals while having Min. 1 Ligue 1 player in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
-        },
-        {
-          "description": "Scream in Serie A",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Score in 2 separate matches while having Min. 1 Serie A player in your starting 11 in the FC Heritage Circuit Semi-Pro Event."
-        },
         {
           "description": "Win 1",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit Semi-Pro Event and qualify for the FC Heritage Circuit Professional Event."
+          "rule": "Win 1 match in the FC Heritage Circuit Kick Off Event."
+        },
+        {
+          "description": "Assist in 2",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event."
+        },
+        {
+          "description": "Play 2",
+          "metric": "matches",
+          "target": 2,
+          "mode": "Any",
+          "rule": "Play 2 matches in the FC Heritage Circuit Kick Off Event."
+        },
+        {
+          "description": "Score 1",
+          "metric": "goals",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score 1 goal in the FC Heritage Circuit Kick Off Event."
         }
       ],
       "detailStatus": "complete",
@@ -1479,48 +1416,111 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:157",
-      "sourceUrl": "https://fcdata.io/objectives/157-fc-heritage-circuit-professional-event/",
-      "title": "FC Heritage Circuit Professional Event",
+      "sourceKey": "fcdata:158",
+      "sourceUrl": "https://fcdata.io/objectives/158-fc-heritage-circuit-tournament/",
+      "title": "FC Heritage Circuit Tournament",
       "category": "Season",
       "expires": "2026-12-03T08:59",
-      "reward": "2x 81+ Gold Players Pack",
-      "countHint": 5,
+      "reward": "85 Alexis Sánchez",
+      "countHint": 7,
       "tasks": [
         {
-          "description": "Premier Pride",
+          "description": "Heritage Champion",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the FC Heritage Circuit Tournament 3 times."
+        },
+        {
+          "description": "Thunder Final",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11."
+        },
+        {
+          "description": "Ligue 1 Finest",
           "metric": "wins",
           "target": 2,
           "mode": "Any",
-          "rule": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event."
+          "rule": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament."
         },
         {
-          "description": "French Connection",
+          "description": "Oranje Legacy",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event."
+          "rule": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament."
         },
         {
-          "description": "Belgian Tower",
+          "description": "Madrid Royalty",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event."
+          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament."
         },
         {
-          "description": "Three Lions Legacy",
+          "description": "French Thrill",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event."
+          "rule": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament."
+        },
+        {
+          "description": "Serie A after Dark",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:161",
+      "sourceUrl": "https://fcdata.io/objectives/161-fc-heritage-circuit-world-class-event/",
+      "title": "FC Heritage Circuit World Class Event",
+      "category": "Season",
+      "expires": "2026-12-03T08:59",
+      "reward": "2x 82+ Gold Players Pack",
+      "countHint": 5,
+      "tasks": [
+        {
+          "description": "Bundesliga Backbone",
+          "metric": "wins",
+          "target": 3,
+          "mode": "Any",
+          "rule": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bavarian Thunder",
+          "metric": "goals",
+          "target": 5,
+          "mode": "Any",
+          "rule": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Paris Power Surge",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event."
+        },
+        {
+          "description": "Bernabéu Thunder",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event."
         },
         {
           "description": "Win 1",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event."
+          "rule": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament."
         }
       ],
       "detailStatus": "complete",
@@ -1738,69 +1738,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
-      "sourceKey": "fcdata:26",
-      "sourceUrl": "https://fcdata.io/objectives/26-first-team-dreams/",
-      "title": "First Team Dreams",
+      "sourceKey": "fcdata:25",
+      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
+      "title": "The Journey Begins",
       "category": "Foundations",
       "expires": "2031-10-01T18:59",
-      "reward": "Engine · 81 Keane Lewis-Potter",
-      "countHint": 3,
+      "reward": "3x Premier League Gold Players Pack · Anchor",
+      "countHint": 4,
       "tasks": [
         {
-          "description": "Targeted Investments",
+          "description": "A Test of Skill",
           "metric": "custom",
           "target": 1,
-          "mode": "Any",
-          "rule": "Complete 3 Squad Building Challenge groups."
+          "mode": "Live Events",
+          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
         },
         {
-          "description": "Trading Up",
-          "metric": "custom",
-          "target": 1,
+          "description": "Finding the Net",
+          "metric": "goals",
+          "target": 20,
           "mode": "Any",
-          "rule": "Complete the Bronze Upgrade Squad Building Challenge group."
+          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
         },
         {
-          "description": "Players Come, Players Go",
+          "description": "Hit the Pitch",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Complete the \"Intro to Streamlined SBCs\" Squad Building Challenge group."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:28",
-      "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
-      "title": "Total Football",
-      "category": "Foundations",
-      "expires": "2031-10-01T18:59",
-      "reward": "Gold Players Pack · 82 Charalampos Kostoulas",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Complete 'Rising Through the Ranks'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'Rising Through the Ranks' Objectives Group."
+          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
         },
         {
-          "description": "Complete 'First Team Dreams'",
+          "description": "Lace 'em Up",
           "metric": "custom",
           "target": 1,
           "mode": "Any",
-          "rule": "Fully complete the 'First Team Dreams' Objectives Group."
-        },
-        {
-          "description": "Complete 'The Journey Begins'",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Fully complete the 'The Journey Begins' Objectives Group."
+          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
         }
       ],
       "detailStatus": "complete",
@@ -1878,6 +1850,41 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:26",
+      "sourceUrl": "https://fcdata.io/objectives/26-first-team-dreams/",
+      "title": "First Team Dreams",
+      "category": "Foundations",
+      "expires": "2031-10-01T18:59",
+      "reward": "Engine · 81 Keane Lewis-Potter",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Targeted Investments",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete 3 Squad Building Challenge groups."
+        },
+        {
+          "description": "Trading Up",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the Bronze Upgrade Squad Building Challenge group."
+        },
+        {
+          "description": "Players Come, Players Go",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Complete the \"Intro to Streamlined SBCs\" Squad Building Challenge group."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:59",
       "sourceUrl": "https://fcdata.io/objectives/59-first-owned-mastery/",
       "title": "First Owned Mastery",
@@ -1906,48 +1913,6 @@
           "target": 25,
           "mode": "Any",
           "rule": "Win 25 matches in any FUT game mode with a starting squad of First Owned players."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:25",
-      "sourceUrl": "https://fcdata.io/objectives/25-the-journey-begins/",
-      "title": "The Journey Begins",
-      "category": "Foundations",
-      "expires": "2031-10-01T18:59",
-      "reward": "3x Premier League Gold Players Pack · Anchor",
-      "countHint": 4,
-      "tasks": [
-        {
-          "description": "A Test of Skill",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Live Events",
-          "rule": "Win a PVE Live Events match on min. Semi-Pro difficulty (or PVP Live Events)."
-        },
-        {
-          "description": "Finding the Net",
-          "metric": "goals",
-          "target": 20,
-          "mode": "Any",
-          "rule": "Score 20 goals in any Live Events match (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Hit the Pitch",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 7 Live Events matches (or Rivals/Squad Battles)."
-        },
-        {
-          "description": "Lace 'em Up",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play any Live Events match (or Rivals/Squad Battles)."
         }
       ],
       "detailStatus": "complete",
@@ -2445,6 +2410,76 @@
       "notes": "Imported from independent FCData. Confirm all restrictions in game."
     },
     {
+      "sourceKey": "fcdata:28",
+      "sourceUrl": "https://fcdata.io/objectives/28-total-football/",
+      "title": "Total Football",
+      "category": "Foundations",
+      "expires": "2031-10-01T18:59",
+      "reward": "Gold Players Pack · 82 Charalampos Kostoulas",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Complete 'Rising Through the Ranks'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'Rising Through the Ranks' Objectives Group."
+        },
+        {
+          "description": "Complete 'First Team Dreams'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'First Team Dreams' Objectives Group."
+        },
+        {
+          "description": "Complete 'The Journey Begins'",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Fully complete the 'The Journey Begins' Objectives Group."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
+      "sourceKey": "fcdata:45",
+      "sourceUrl": "https://fcdata.io/objectives/45-draft-milestone/",
+      "title": "Draft Milestone",
+      "category": "Milestones",
+      "expires": "2031-10-01T18:59",
+      "reward": "Large Gold Pack",
+      "countHint": 3,
+      "tasks": [
+        {
+          "description": "Play 15",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 15 Draft matches."
+        },
+        {
+          "description": "Play 10",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 10 Draft matches."
+        },
+        {
+          "description": "Play 5",
+          "metric": "custom",
+          "target": 1,
+          "mode": "Any",
+          "rule": "Play 5 Draft matches."
+        }
+      ],
+      "detailStatus": "complete",
+      "sp": 0,
+      "notes": "Imported from independent FCData. Confirm all restrictions in game."
+    },
+    {
       "sourceKey": "fcdata:27",
       "sourceUrl": "https://fcdata.io/objectives/27-rising-through-the-ranks/",
       "title": "Rising Through the Ranks",
@@ -2487,41 +2522,6 @@
           "target": 1,
           "mode": "Any",
           "rule": "Play a match in any FUT game mode."
-        }
-      ],
-      "detailStatus": "complete",
-      "sp": 0,
-      "notes": "Imported from independent FCData. Confirm all restrictions in game."
-    },
-    {
-      "sourceKey": "fcdata:45",
-      "sourceUrl": "https://fcdata.io/objectives/45-draft-milestone/",
-      "title": "Draft Milestone",
-      "category": "Milestones",
-      "expires": "2031-10-01T18:59",
-      "reward": "Large Gold Pack",
-      "countHint": 3,
-      "tasks": [
-        {
-          "description": "Play 15",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 15 Draft matches."
-        },
-        {
-          "description": "Play 10",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 10 Draft matches."
-        },
-        {
-          "description": "Play 5",
-          "metric": "custom",
-          "target": 1,
-          "mode": "Any",
-          "rule": "Play 5 Draft matches."
         }
       ],
       "detailStatus": "complete",
